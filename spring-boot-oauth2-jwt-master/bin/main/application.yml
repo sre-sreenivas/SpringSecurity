@@ -1,0 +1,4 @@
+spring.datasource.platform: h2
+spring.h2.console.enabled: true
+spring.jpa.show-sql: true
+security.oauth2.resource.filter-order: 3

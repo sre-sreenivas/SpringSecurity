@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Implementation-Title: Spring Data REST - Security Example
+Implementation-Version: 2.0.0.BUILD-SNAPSHOT
+Build-Jdk-Spec: 1.8
+Created-By: Maven Integration for Eclipse
+
