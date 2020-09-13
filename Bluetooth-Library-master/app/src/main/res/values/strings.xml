@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Bluetooth Library Demo</string>
+    <string name="helloWorld">Hello World !</string>
+</resources>
