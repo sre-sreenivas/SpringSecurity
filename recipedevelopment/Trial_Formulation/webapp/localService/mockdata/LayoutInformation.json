@@ -1,0 +1,39 @@
+{
+	"d": {
+		"results": [{
+			"ID": "f3e90896-0a5e-4c86-86ea-cf9424f75486",
+			"layoutName": "kjh",
+			"status": null,
+			"description": null,
+			"defaultFlag": null,
+			"layoutType": "User Specific Layout",
+			"referenceQuantity": null,
+			"UOM": null,
+			"defaultFlagCriticality": null,
+			"createdAt": "\/Date(1587379433142)\/",
+			"createdBy": "j.ganesh.hedaoo@accenture.com",
+			"modifiedAt": "\/Date(1587379433142)\/",
+			"modifiedBy": "j.ganesh.hedaoo@accenture.com",
+			"IsActiveEntity": false,
+			"HasActiveEntity": false,
+			"HasDraftEntity": false
+		}, {
+			"ID": "11111111-1111-1111-1111-111111111111",
+			"layoutName": "Default",
+			"status": "Available",
+			"description": null,
+			"defaultFlag": null,
+			"layoutType": "Default",
+			"referenceQuantity": 100,
+			"UOM": "KG",
+			"defaultFlagCriticality": null,
+			"createdAt": "\/Date(1587379433142)\/",
+			"createdBy": "j.ganesh.hedaoo@accenture.com",
+			"modifiedAt": "\/Date(1587379433142)\/",
+			"modifiedBy": "j.ganesh.hedaoo@accenture.com",
+			"IsActiveEntity": true,
+			"HasActiveEntity": false,
+			"HasDraftEntity": false
+		}]
+	}
+}

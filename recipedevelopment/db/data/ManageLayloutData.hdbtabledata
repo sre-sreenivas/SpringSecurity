@@ -1,0 +1,113 @@
+{
+	"format_version": 1,
+	"imports": [
+	{
+		"target_table": "RECIPE_MANAGELAYOUT_CATEGORYTYPE",
+		"source_data": {
+			"data_type": "CSV",
+			"file_name": "CATEGORY.csv",
+			"has_header": true
+		},
+		"import_settings": {
+			"include_filter" : [],
+			"import_columns": [
+				"ID",
+				"CATEGORYNAME"
+			]
+		}
+	}, 
+	{
+		"target_table": "RECIPE_MANAGELAYOUT_SUBCATEGORY",
+		"source_data": {
+			"data_type": "CSV",
+			"file_name": "SUBCATEGORY.csv",
+			"has_header": true
+		},
+		"import_settings": {
+			"include_filter" : [],
+			"import_columns": [
+				"ID",
+				"CATEGORYID",
+				"SUBCATEGORYNAME"
+			]
+		}
+
+	},
+	{
+		"target_table": "RECIPE_MANAGELAYOUT_LAYOUTTYPE",
+		"source_data": {
+			"data_type": "CSV",
+			"file_name": "LAYOUTTYPE.csv",
+			"has_header": true
+		},
+		"import_settings": {
+			"include_filter" : [],
+			"import_columns": [
+				"ID",
+				"TYPENAME"
+			]
+		}
+
+	},
+		{
+		"target_table": "RECIPE_MANAGELAYOUT_UOM",
+		"source_data": {
+			"data_type": "CSV",
+			"file_name": "UOM.csv",
+			"has_header": true
+		},
+		"import_settings": {
+			"include_filter" : [],
+			"import_columns": [
+				"ID",
+				"DESCRIPTION"
+			]
+		}
+
+	},  {
+			"target_table": "RECIPE_MANAGELAYOUT_COLUMNSSELECTEDINLAYOUT",
+			"source_data": {
+				"data_type": "CSV",
+				"file_name": "COLUMNSSELECTEDINLAYOUT.csv",
+				"has_header": true
+			},
+			"import_settings": {
+			"include_filter" : [],
+				"import_columns": [
+					"ID",
+					"LAYOUTITEMID",
+					"CATEGORYNAME",
+					"SUBCATEGORYNAME",
+					"UOM",
+					"FIXEDCOLUMN",
+					"COLUMNORDER"
+				]
+			}
+
+		},
+		{
+			"target_table": "RECIPE_MANAGELAYOUT_LAYOUTINFORMATION",
+			"source_data": {
+				"data_type": "CSV",
+				"file_name": "DEFAULT_LAYOUTINFORMATION.csv",
+				"has_header": true
+			},
+			"import_settings": {
+				"include_filter" : [],
+				"import_columns": [
+					"ID",
+					"LAYOUTNAME",
+					"DESCRIPTION",
+					"DEFAULTFLAG",
+					"LAYOUTTYPE",
+					"REFERENCEQUANTITY",
+					"UOM",
+					"CREATEDBY",
+					"MODIFIEDBY"
+				]
+			}
+
+		}
+
+	]
+}

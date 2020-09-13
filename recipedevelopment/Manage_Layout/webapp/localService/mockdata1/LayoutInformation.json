@@ -1,0 +1,241 @@
+[{
+	"createdAt": "/Date(967800005000+0000)/",
+	"createdBy": "createdBy 1",
+	"modifiedAt": "/Date(1114248005000+0000)/",
+	"modifiedBy": "modifiedBy 1",
+	"ID": "f3e90896-0a5e-4c86-86ea-cf9424f75486",
+	"layoutName": "layoutName 1",
+	"status": "status 1",
+	"description": "description 1",
+	"defaultFlag": false,
+	"layoutType": "layoutType 1",
+	"refernceQuanity": 6043,
+	"UOM": "UOM 1",
+	"criticality": 4782,
+	"defaultFlagCriticality": 5449,
+	"__metadata": {
+		"uri": "LayoutInformation(guid'f3e90896-0a5e-4c86-86ea-cf9424f75486')",
+		"type": "ManageLayoutService.LayoutInformation"
+	},
+	"columnsSelectedInLayout": {
+		"__deferred": {
+			"uri": "LayoutInformation(guid'f3e90896-0a5e-4c86-86ea-cf9424f75486')/columnsSelectedInLayout"
+		}
+	}
+}, {
+	"createdAt": "/Date(1264152005000+0000)/",
+	"createdBy": "createdBy 2",
+	"modifiedAt": "/Date(1509182405000+0000)/",
+	"modifiedBy": "modifiedBy 2",
+	"ID": "bfdfa469-78cd-44b8-ac65-7530dd17c45c",
+	"layoutName": "layoutName 2",
+	"status": "status 2",
+	"description": "description 2",
+	"defaultFlag": true,
+	"layoutType": "layoutType 2",
+	"refernceQuanity": 7566,
+	"UOM": "UOM 2",
+	"criticality": 8708,
+	"defaultFlagCriticality": 2500,
+	"__metadata": {
+		"uri": "LayoutInformation(guid'bfdfa469-78cd-44b8-ac65-7530dd17c45c')",
+		"type": "ManageLayoutService.LayoutInformation"
+	},
+	"columnsSelectedInLayout": {
+		"__deferred": {
+			"uri": "LayoutInformation(guid'bfdfa469-78cd-44b8-ac65-7530dd17c45c')/columnsSelectedInLayout"
+		}
+	}
+}, {
+	"createdAt": "/Date(1149153605000+0000)/",
+	"createdBy": "createdBy 3",
+	"modifiedAt": "/Date(1224667205000+0000)/",
+	"modifiedBy": "modifiedBy 3",
+	"ID": "0c26fa31-ccf5-4b07-997f-010b4bd966bc",
+	"layoutName": "layoutName 3",
+	"status": "status 3",
+	"description": "description 3",
+	"defaultFlag": false,
+	"layoutType": "layoutType 3",
+	"refernceQuanity": 7329,
+	"UOM": "UOM 3",
+	"criticality": 5370,
+	"defaultFlagCriticality": 4086,
+	"__metadata": {
+		"uri": "LayoutInformation(guid'0c26fa31-ccf5-4b07-997f-010b4bd966bc')",
+		"type": "ManageLayoutService.LayoutInformation"
+	},
+	"columnsSelectedInLayout": {
+		"__deferred": {
+			"uri": "LayoutInformation(guid'0c26fa31-ccf5-4b07-997f-010b4bd966bc')/columnsSelectedInLayout"
+		}
+	}
+}, {
+	"createdAt": "/Date(1190107205000+0000)/",
+	"createdBy": "createdBy 4",
+	"modifiedAt": "/Date(1157707205000+0000)/",
+	"modifiedBy": "modifiedBy 4",
+	"ID": "9c3f90fb-1e3b-4083-a1c6-ca6e8a9a2fbe",
+	"layoutName": "layoutName 4",
+	"status": "status 4",
+	"description": "description 4",
+	"defaultFlag": false,
+	"layoutType": "layoutType 4",
+	"refernceQuanity": 7640,
+	"UOM": "UOM 4",
+	"criticality": 3914,
+	"defaultFlagCriticality": 3359,
+	"__metadata": {
+		"uri": "LayoutInformation(guid'9c3f90fb-1e3b-4083-a1c6-ca6e8a9a2fbe')",
+		"type": "ManageLayoutService.LayoutInformation"
+	},
+	"columnsSelectedInLayout": {
+		"__deferred": {
+			"uri": "LayoutInformation(guid'9c3f90fb-1e3b-4083-a1c6-ca6e8a9a2fbe')/columnsSelectedInLayout"
+		}
+	}
+}, {
+	"createdAt": "/Date(1139217605000+0000)/",
+	"createdBy": "createdBy 5",
+	"modifiedAt": "/Date(1405329605000+0000)/",
+	"modifiedBy": "modifiedBy 5",
+	"ID": "f340abaa-acf0-42f8-8432-04307c9e409e",
+	"layoutName": "layoutName 5",
+	"status": "status 5",
+	"description": "description 5",
+	"defaultFlag": false,
+	"layoutType": "layoutType 5",
+	"refernceQuanity": 4605,
+	"UOM": "UOM 5",
+	"criticality": 3684,
+	"defaultFlagCriticality": 1902,
+	"__metadata": {
+		"uri": "LayoutInformation(guid'f340abaa-acf0-42f8-8432-04307c9e409e')",
+		"type": "ManageLayoutService.LayoutInformation"
+	},
+	"columnsSelectedInLayout": {
+		"__deferred": {
+			"uri": "LayoutInformation(guid'f340abaa-acf0-42f8-8432-04307c9e409e')/columnsSelectedInLayout"
+		}
+	}
+}, {
+	"createdAt": "/Date(1301390405000+0000)/",
+	"createdBy": "createdBy 6",
+	"modifiedAt": "/Date(1516094405000+0000)/",
+	"modifiedBy": "modifiedBy 6",
+	"ID": "5752f01f-49af-48a2-838d-e420f52d6f93",
+	"layoutName": "layoutName 6",
+	"status": "status 6",
+	"description": "description 6",
+	"defaultFlag": true,
+	"layoutType": "layoutType 6",
+	"refernceQuanity": 161,
+	"UOM": "UOM 6",
+	"criticality": 8419,
+	"defaultFlagCriticality": 8175,
+	"__metadata": {
+		"uri": "LayoutInformation(guid'5752f01f-49af-48a2-838d-e420f52d6f93')",
+		"type": "ManageLayoutService.LayoutInformation"
+	},
+	"columnsSelectedInLayout": {
+		"__deferred": {
+			"uri": "LayoutInformation(guid'5752f01f-49af-48a2-838d-e420f52d6f93')/columnsSelectedInLayout"
+		}
+	}
+}, {
+	"createdAt": "/Date(1274174405000+0000)/",
+	"createdBy": "createdBy 7",
+	"modifiedAt": "/Date(990264005000+0000)/",
+	"modifiedBy": "modifiedBy 7",
+	"ID": "1a3db093-8991-4e82-9d99-b5c5a36ce08b",
+	"layoutName": "layoutName 7",
+	"status": "status 7",
+	"description": "description 7",
+	"defaultFlag": false,
+	"layoutType": "layoutType 7",
+	"refernceQuanity": 1149,
+	"UOM": "UOM 7",
+	"criticality": 4983,
+	"defaultFlagCriticality": 8022,
+	"__metadata": {
+		"uri": "LayoutInformation(guid'1a3db093-8991-4e82-9d99-b5c5a36ce08b')",
+		"type": "ManageLayoutService.LayoutInformation"
+	},
+	"columnsSelectedInLayout": {
+		"__deferred": {
+			"uri": "LayoutInformation(guid'1a3db093-8991-4e82-9d99-b5c5a36ce08b')/columnsSelectedInLayout"
+		}
+	}
+}, {
+	"createdAt": "/Date(1532337605000+0000)/",
+	"createdBy": "createdBy 8",
+	"modifiedAt": "/Date(1210152005000+0000)/",
+	"modifiedBy": "modifiedBy 8",
+	"ID": "72dc304e-8956-4316-b7f4-277c9adfbd2d",
+	"layoutName": "layoutName 8",
+	"status": "status 8",
+	"description": "description 8",
+	"defaultFlag": false,
+	"layoutType": "layoutType 8",
+	"refernceQuanity": 2652,
+	"UOM": "UOM 8",
+	"criticality": 3710,
+	"defaultFlagCriticality": 7931,
+	"__metadata": {
+		"uri": "LayoutInformation(guid'72dc304e-8956-4316-b7f4-277c9adfbd2d')",
+		"type": "ManageLayoutService.LayoutInformation"
+	},
+	"columnsSelectedInLayout": {
+		"__deferred": {
+			"uri": "LayoutInformation(guid'72dc304e-8956-4316-b7f4-277c9adfbd2d')/columnsSelectedInLayout"
+		}
+	}
+}, {
+	"createdAt": "/Date(1539940805000+0000)/",
+	"createdBy": "createdBy 9",
+	"modifiedAt": "/Date(1555492805000+0000)/",
+	"modifiedBy": "modifiedBy 9",
+	"ID": "34d6f3e4-94b5-400f-86a1-a711c3099e6d",
+	"layoutName": "layoutName 9",
+	"status": "status 9",
+	"description": "description 9",
+	"defaultFlag": true,
+	"layoutType": "layoutType 9",
+	"refernceQuanity": 2456,
+	"UOM": "UOM 9",
+	"criticality": 1323,
+	"defaultFlagCriticality": 3112,
+	"__metadata": {
+		"uri": "LayoutInformation(guid'34d6f3e4-94b5-400f-86a1-a711c3099e6d')",
+		"type": "ManageLayoutService.LayoutInformation"
+	},
+	"columnsSelectedInLayout": {
+		"__deferred": {
+			"uri": "LayoutInformation(guid'34d6f3e4-94b5-400f-86a1-a711c3099e6d')/columnsSelectedInLayout"
+		}
+	}
+}, {
+	"createdAt": "/Date(1039425605000+0000)/",
+	"createdBy": "createdBy 10",
+	"modifiedAt": "/Date(1239355205000+0000)/",
+	"modifiedBy": "modifiedBy 10",
+	"ID": "81972519-01a4-4fcf-8eb8-96044bbbf8cc",
+	"layoutName": "layoutName 10",
+	"status": "status 10",
+	"description": "description 10",
+	"defaultFlag": false,
+	"layoutType": "layoutType 10",
+	"refernceQuanity": 5752,
+	"UOM": "UOM 10",
+	"criticality": 125,
+	"defaultFlagCriticality": 4371,
+	"__metadata": {
+		"uri": "LayoutInformation(guid'81972519-01a4-4fcf-8eb8-96044bbbf8cc')",
+		"type": "ManageLayoutService.LayoutInformation"
+	},
+	"columnsSelectedInLayout": {
+		"__deferred": {
+			"uri": "LayoutInformation(guid'81972519-01a4-4fcf-8eb8-96044bbbf8cc')/columnsSelectedInLayout"
+		}
+	}
+}]

@@ -1,0 +1,249 @@
+{
+	"_version": "1.8.0",
+	"sap.app": {
+		"id": "manage.manage_layout",
+		"type": "application",
+		"i18n": "i18n/i18n.properties",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"tags": {
+			"keywords": []
+		},
+		"ach": "cap",
+		"resources": "resources.json",
+		"dataSources": {
+			"mainService": {
+				"uri": "/srv_api/odata/v2/ManageLayoutService/",
+				"type": "OData",
+				"settings": {
+					"localUri": "localService/metadata.xml"
+				}
+			},
+			"TrialFormulationService": {
+				"uri": "/srv_api/odata/v2/RecipeService/",
+				"type": "OData",
+				"settings": {
+					"localUri": "localService/metadata.xml"
+				}
+			}
+		},
+		"offline": false,
+		"sourceTemplate": {
+			"id": "html5moduletemplates.smartTemplateModule",
+			"version": "1.40.12"
+		},
+		"crossNavigation": {
+			"inbounds": {
+				"intent1": {
+					"signature": {
+						"parameters": {},
+						"additionalParameters": "allowed"
+					},
+					"semanticObject": "layout",
+					"action": "manage"
+				}
+			}
+		}
+	},
+	"sap.ui": {
+		"technology": "UI5",
+		"icons": {
+			"icon": "",
+			"favIcon": "",
+			"phone": "",
+			"phone@2": "",
+			"tablet": "",
+			"tablet@2": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		}
+	},
+	"sap.ui5": {
+		"resources": {
+			"js": [],
+			"css": []
+		},
+		"dependencies": {
+			"minUI5Version": "1.65.6",
+			"libs": {},
+			"components": {}
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"uri": "i18n/i18n.properties"
+			},
+			"@i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"uri": "i18n/i18n.properties"
+			},
+			"i18n|sap.suite.ui.generic.template.ListReport|LayoutInformation": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"uri": "i18n/ListReport/LayoutInformation/i18n.properties"
+			},
+			"i18n|sap.suite.ui.generic.template.ObjectPage|LayoutInformation": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"uri": "i18n/ObjectPage/LayoutInformation/i18n.properties"
+			},
+			"": {
+				"dataSource": "mainService",
+				"preload": true,
+				"settings": {
+					"metadataUrlParams": {
+						"sap-value-list": "none"
+					},
+					"serviceUrlParams": {
+						"saml2": "disabled"
+					},
+					"defaultBindingMode": "TwoWay",
+					"defaultCountMode": "Inline",
+					"refreshAfterChange": false
+				}
+			},
+			"collectionModel": {
+				"type": "sap.ui.model.json.JSONModel"
+			},
+			"TrialFormulationModel": {
+				"dataSource": "TrialFormulationService",
+				"preload": true,
+				"settings": {
+					"metadataUrlParams": {
+						"sap-value-list": "none"
+					},
+					"serviceUrlParams": {
+						"saml2": "disabled"
+					},
+					"defaultBindingMode": "TwoWay",
+					"defaultCountMode": "Inline",
+					"refreshAfterChange": false
+				}
+			}
+		},
+		"extends": {
+			"extensions": {
+				"sap.ui.controllerExtensions": {
+					"sap.suite.ui.generic.template.ObjectPage.view.Details": {
+						"controllerName": "manage.manage_layout.ext.controller.ObjectPageExt",
+						"sap.ui.generic.app": {
+							"LayoutInformation": {
+								"EntitySet": "LayoutInformation",
+								"Header": {
+									"Actions": {
+										"ActionRecipeHeader2": {
+											"id": "ActionRecipeHeader2button",
+											"press":"openQuickView"
+										}
+									}
+								},
+								"Sections": {
+									"columnsSelectedInLayout::com.sap.vocabularies.UI.v1.LineItem::ColumnSelection": {
+										"id": "columnsSelectedInLayout::com.sap.vocabularies.UI.v1.LineItem::ColumnSelection",
+										"Actions": {
+
+											"ActionLayoutInformationSections2": {
+												"id": "idDirectUp",
+												"press": "onClickDirectUp"
+											},
+											"ActionLayoutInformationSections3": {
+												"id": "idUp",
+												"press": "onClickUp"
+											},
+											"ActionLayoutInformationSections4": {
+												"id": "idDown",
+												"press": "onClickDown"
+											},
+											"ActionLayoutInformationSections5": {
+												"id": "idDirectDown",
+												"press": "onClickDirectDown"
+											},
+											"ActionLayoutInformationSections6": {
+												"id": "idRemoveColumn",
+												"press": "onClickRemove",
+												"text": "{@i18n>remove}"
+											},
+											"ActionLayoutInformationSections1": {
+												"id": "idAddColumn",
+												"press": "onClickActionLayoutInformationSections1"
+											}
+										}
+									}
+
+
+								}
+							}
+						}
+					},
+					"sap.suite.ui.generic.template.ListReport.view.ListReport": {
+						"controllerName": "manage.manage_layout.ext.controller.ListReportExt",
+						"sap.ui.generic.app": {
+							"LayoutInformation": {
+								"EntitySet": "LayoutInformation"
+							}
+						}
+					}
+				}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		}
+	},
+	"sap.ui.generic.app": {
+		"_version": "1.3.0",
+		"settings": {
+			"inboundParameters": {
+				"LayoutInformation": {
+					"useForCreate": true
+				}
+			},
+			"forceGlobalRefresh": false,
+			"objectPageHeaderType": "Dynamic",
+			"showDraftToggle": false
+		},
+		"pages": {
+			"ListReport|LayoutInformation": {
+				"entitySet": "LayoutInformation",
+				"component": {
+					"name": "sap.suite.ui.generic.template.ListReport",
+					"list": true,
+					"settings": {
+						"condensedTableLayout": true,
+						"smartVariantManagement": true,
+						"enableTableFilterInPageVariant": true
+					}
+				},
+				"pages": {
+					"ObjectPage|LayoutInformation": {
+						"entitySet": "LayoutInformation",
+						"component": {
+							"name": "sap.suite.ui.generic.template.ObjectPage",
+							"settings": {
+								"sections": {
+									"columnsSelectedInLayout::com.sap.vocabularies.UI.v1.LineItem::ColumnSelection": {
+										"tableSettings": {
+											"multiSelect": true
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"sap.fiori": {
+		"registrationIds": [],
+		"archeType": "transactional"
+	},
+	"sap.platform.hcp": {
+		"uri": ""
+	}
+}

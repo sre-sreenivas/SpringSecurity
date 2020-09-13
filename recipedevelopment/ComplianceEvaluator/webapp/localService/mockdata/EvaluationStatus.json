@@ -1,0 +1,13 @@
+[{
+	"ID": 1,
+	"status": "New",
+	"nextStatus": "In-Progress"
+}, {
+	"ID": 2,
+	"status": "In-Progress",
+	"nextStatus": "Closed"
+}, {
+	"ID": 3,
+	"status": "Closed",
+	"nextStatus": "Closed"
+}]

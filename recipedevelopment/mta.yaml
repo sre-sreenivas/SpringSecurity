@@ -1,0 +1,152 @@
+ID: recipedevelopment
+_schema-version: '2.1'
+parameters:
+  deploy_mode: html5-repo
+version: 0.0.2
+modules:
+  - name: ComplianceEvaluation_appRouter
+    type: approuter.nodejs
+    path: ComplianceEvaluation_appRouter
+    parameters:
+      disk-quota: 256M
+      memory: 256M
+    requires:
+      - name: ComplianceEvaluation_html5_repo_runtime
+      - name: uaa_ComplianceEvaluation
+      - name: portal_resources_ComplianceEvaluation
+      - name: srv_api
+        group: destinations
+        properties:
+          forwardAuthToken: true
+          name: srv_api
+          url: '~{url}'
+     
+  - name: ComplianceEvaluation_ui_deployer
+    type: com.sap.html5.application-content
+    path: ComplianceEvaluation_ui_deployer
+    requires:
+      - name: ComplianceEvaluation_html5_repo_host
+    build-parameters:
+      requires:
+        - name: ComplianceEvaluator
+          artifacts:
+            - './*'
+          target-path: resources/ComplianceEvaluator
+        - name: Trial_Formulation
+          artifacts:
+            - './*'
+          target-path: resources/Trial_Formulation
+        - name: Manage_Layout
+          artifacts:
+            - './*'
+          target-path: resources/Manage_Layout
+  - name: ComplianceEvaluation-db
+    type: hdb
+    path: db
+    parameters:
+      memory: 256M
+      disk-quota: 256M
+    requires:
+      - name: ComplianceEvaluation-db-hdi-container
+  - name: ComplianceEvaluation-srv
+    type: java
+    path: srv
+    properties:
+      ALLOW_MOCKED_AUTH_HEADER: true
+    parameters:
+      memory: 1024M
+    provides:
+      - name: srv_api
+        properties:
+          url: '${default-url}'
+    requires:
+      - name: uaa_ComplianceEvaluation
+        properties:  
+          SAP_JWT_TRUST_ACL: '[{"clientid" : "*", "identityzone" : "*"}]'
+      - name: ComplianceEvaluation-db-hdi-container
+        properties:
+          JBP_CONFIG_RESOURCE_CONFIGURATION: '[tomcat/webapps/ROOT/META-INF/context.xml: {"service_name_for_DefaultDB" : "~{hdi-container-name}"}]'
+  - name: ComplianceEvaluator
+    type: html5
+    path: ComplianceEvaluator
+    build-parameters:
+      builder: grunt
+      supported-platforms: []
+      build-result: dist
+    requires:
+      - name: srv_api
+        group: destinations
+        properties:
+          forwardAuthToken: true
+          strictSSL: false
+          name: srv_api
+          url: '~{url}'
+      - name: uaa_ComplianceEvaluation
+  - name: rcpdev-portal
+    type: com.sap.portal.content
+    path: rcpdev-portal
+    parameters:
+      stack: cflinuxfs3
+      memory: 128M
+      buildpack: 'https://github.com/cloudfoundry/nodejs-buildpack/releases/download/v1.6.39/nodejs-buildpack-cflinuxfs3-v1.6.39.zip'
+    requires:
+      - name: portal_resources_ComplianceEvaluation
+      - name: uaa_ComplianceEvaluation
+      - name: ComplianceEvaluation_html5_repo_host
+      - name: ComplianceEvaluation_ui_deployer
+  - name: Manage_Layout
+    type: html5
+    path: Manage_Layout
+    build-parameters:
+      builder: grunt
+      supported-platforms: []
+      build-result: dist
+    requires:
+      - name: srv_api
+        group: destinations
+        properties:
+          forwardAuthToken: true
+          strictSSL: false
+          name: srv_api
+          url: '~{url}'
+  - name: Trial_Formulation
+    type: html5
+    path: Trial_Formulation
+    build-parameters:
+      builder: grunt
+      supported-platforms: []
+      build-result: dist
+    requires:
+      - name: srv_api
+        group: destinations
+        properties:
+          forwardAuthToken: true
+          strictSSL: false
+          name: srv_api
+          url: '~{url}'
+resources:
+  - name: ComplianceEvaluation_html5_repo_runtime
+    parameters:
+      service-plan: app-runtime
+      service: html5-apps-repo
+    type: org.cloudfoundry.managed-service
+  - name: ComplianceEvaluation_html5_repo_host
+    parameters:
+      service-plan: app-host
+      service: html5-apps-repo
+    type: org.cloudfoundry.managed-service
+  - name: ComplianceEvaluation-db-hdi-container
+    type: com.sap.xs.hdi-container
+    properties:
+      hdi-container-name: '${service-name}'
+  - name: uaa_ComplianceEvaluation
+    parameters:
+      path: ./xs-security.json
+      service-plan: application
+      service: xsuaa
+    type: org.cloudfoundry.managed-service
+  - name: portal_resources_ComplianceEvaluation
+    parameters:
+      service-plan: standard
+      service: portal
+    type: org.cloudfoundry.managed-service

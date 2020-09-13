@@ -1,0 +1,131 @@
+[{
+	"DraftUUID": "095561e5-faa9-452d-8fcb-93f62d095b33",
+	"CreationDateTime": "/Date(967806949000+0000)/",
+	"CreatedByUser": "CreatedByUser 1",
+	"DraftIsCreatedByMe": true,
+	"LastChangeDateTime": "/Date(1114254949000+0000)/",
+	"LastChangedByUser": "LastChangedByUser 1",
+	"InProcessByUser": "InProcessByUser 1",
+	"DraftIsProcessedByMe": true,
+	"__metadata": {
+		"uri": "DraftAdministrativeData(guid'00a4c48c-0dfc-4507-abc6-9b54a431b788')",
+		"type": "RecipeService.DraftAdministrativeData"
+	}
+}, {
+	"DraftUUID": "3814c21f-87cc-4016-aec6-cefa69013935",
+	"CreationDateTime": "/Date(1264158949000+0000)/",
+	"CreatedByUser": "CreatedByUser 2",
+	"DraftIsCreatedByMe": false,
+	"LastChangeDateTime": "/Date(1509189349000+0000)/",
+	"LastChangedByUser": "LastChangedByUser 2",
+	"InProcessByUser": "InProcessByUser 2",
+	"DraftIsProcessedByMe": true,
+	"__metadata": {
+		"uri": "DraftAdministrativeData(guid'f3e90896-0a5e-4c86-86ea-cf9424f75486')",
+		"type": "RecipeService.DraftAdministrativeData"
+	}
+}, {
+	"DraftUUID": "02e6bf22-f14f-4e80-97a9-8419daf2b28c",
+	"CreationDateTime": "/Date(1149160549000+0000)/",
+	"CreatedByUser": "CreatedByUser 3",
+	"DraftIsCreatedByMe": false,
+	"LastChangeDateTime": "/Date(1224674149000+0000)/",
+	"LastChangedByUser": "LastChangedByUser 3",
+	"InProcessByUser": "InProcessByUser 3",
+	"DraftIsProcessedByMe": true,
+	"__metadata": {
+		"uri": "DraftAdministrativeData(guid'3de340d6-7800-412b-9f0c-22f5003d8c86')",
+		"type": "RecipeService.DraftAdministrativeData"
+	}
+}, {
+	"DraftUUID": "5208e787-fc88-4d47-ac9f-2ed4cfe6e741",
+	"CreationDateTime": "/Date(1190114149000+0000)/",
+	"CreatedByUser": "CreatedByUser 4",
+	"DraftIsCreatedByMe": false,
+	"LastChangeDateTime": "/Date(1157714149000+0000)/",
+	"LastChangedByUser": "LastChangedByUser 4",
+	"InProcessByUser": "InProcessByUser 4",
+	"DraftIsProcessedByMe": false,
+	"__metadata": {
+		"uri": "DraftAdministrativeData(guid'bfdfa469-78cd-44b8-ac65-7530dd17c45c')",
+		"type": "RecipeService.DraftAdministrativeData"
+	}
+}, {
+	"DraftUUID": "4c1f2ae3-cbfb-4903-88c4-bee06a9cc34f",
+	"CreationDateTime": "/Date(1139224549000+0000)/",
+	"CreatedByUser": "CreatedByUser 5",
+	"DraftIsCreatedByMe": true,
+	"LastChangeDateTime": "/Date(1405336549000+0000)/",
+	"LastChangedByUser": "LastChangedByUser 5",
+	"InProcessByUser": "InProcessByUser 5",
+	"DraftIsProcessedByMe": false,
+	"__metadata": {
+		"uri": "DraftAdministrativeData(guid'32490678-e9b7-4be4-8e52-2f1af8f209cf')",
+		"type": "RecipeService.DraftAdministrativeData"
+	}
+}, {
+	"DraftUUID": "20dd90b9-4322-404f-aaeb-e48bffaf7a43",
+	"CreationDateTime": "/Date(1301397349000+0000)/",
+	"CreatedByUser": "CreatedByUser 6",
+	"DraftIsCreatedByMe": false,
+	"LastChangeDateTime": "/Date(1516101349000+0000)/",
+	"LastChangedByUser": "LastChangedByUser 6",
+	"InProcessByUser": "InProcessByUser 6",
+	"DraftIsProcessedByMe": false,
+	"__metadata": {
+		"uri": "DraftAdministrativeData(guid'0c26fa31-ccf5-4b07-997f-010b4bd966bc')",
+		"type": "RecipeService.DraftAdministrativeData"
+	}
+}, {
+	"DraftUUID": "a831e194-c177-4534-b493-4ee12718204e",
+	"CreationDateTime": "/Date(1274181349000+0000)/",
+	"CreatedByUser": "CreatedByUser 7",
+	"DraftIsCreatedByMe": true,
+	"LastChangeDateTime": "/Date(990270949000+0000)/",
+	"LastChangedByUser": "LastChangedByUser 7",
+	"InProcessByUser": "InProcessByUser 7",
+	"DraftIsProcessedByMe": true,
+	"__metadata": {
+		"uri": "DraftAdministrativeData(guid'b14f718f-4ac1-4211-97d8-8ebd4145aa3b')",
+		"type": "RecipeService.DraftAdministrativeData"
+	}
+}, {
+	"DraftUUID": "4f545e4c-9bab-4509-b827-50fea2260fbe",
+	"CreationDateTime": "/Date(1532344549000+0000)/",
+	"CreatedByUser": "CreatedByUser 8",
+	"DraftIsCreatedByMe": true,
+	"LastChangeDateTime": "/Date(1210158949000+0000)/",
+	"LastChangedByUser": "LastChangedByUser 8",
+	"InProcessByUser": "InProcessByUser 8",
+	"DraftIsProcessedByMe": true,
+	"__metadata": {
+		"uri": "DraftAdministrativeData(guid'9c3f90fb-1e3b-4083-a1c6-ca6e8a9a2fbe')",
+		"type": "RecipeService.DraftAdministrativeData"
+	}
+}, {
+	"DraftUUID": "bd8e1a2a-e6b2-4d25-a975-ece5ef0fe135",
+	"CreationDateTime": "/Date(1539947749000+0000)/",
+	"CreatedByUser": "CreatedByUser 9",
+	"DraftIsCreatedByMe": false,
+	"LastChangeDateTime": "/Date(1555499749000+0000)/",
+	"LastChangedByUser": "LastChangedByUser 9",
+	"InProcessByUser": "InProcessByUser 9",
+	"DraftIsProcessedByMe": false,
+	"__metadata": {
+		"uri": "DraftAdministrativeData(guid'0a4d4de6-e3c4-411c-9676-3879c2ae7dde')",
+		"type": "RecipeService.DraftAdministrativeData"
+	}
+}, {
+	"DraftUUID": "56ef3283-89e8-4567-9de7-2c0aff671922",
+	"CreationDateTime": "/Date(1039432549000+0000)/",
+	"CreatedByUser": "CreatedByUser 10",
+	"DraftIsCreatedByMe": true,
+	"LastChangeDateTime": "/Date(1239362149000+0000)/",
+	"LastChangedByUser": "LastChangedByUser 10",
+	"InProcessByUser": "InProcessByUser 10",
+	"DraftIsProcessedByMe": false,
+	"__metadata": {
+		"uri": "DraftAdministrativeData(guid'f340abaa-acf0-42f8-8432-04307c9e409e')",
+		"type": "RecipeService.DraftAdministrativeData"
+	}
+}]

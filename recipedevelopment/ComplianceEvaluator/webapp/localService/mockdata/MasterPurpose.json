@@ -1,0 +1,111 @@
+[{
+	"ID": "3066e7fb-faa3-45ce-a12a-0a94a736ebb4",
+	"purpose": "purpose 1",
+	"noOfRequirements": 2707,
+	"activationStatus": "activationStatus 1",
+	"createdBy": "createdBy 1",
+	"createdOn": "createdOn 1",
+	"__metadata": {
+		"uri": "MasterPurpose(guid'3066e7fb-faa3-45ce-a12a-0a94a736ebb4')",
+		"type": "ComplianceEvaluatorService.MasterPurpose"
+	}
+}, {
+	"ID": "fd86a96e-f7a7-42c0-9bd9-de06db5d2e37",
+	"purpose": "purpose 2",
+	"noOfRequirements": 9456,
+	"activationStatus": "activationStatus 2",
+	"createdBy": "createdBy 2",
+	"createdOn": "createdOn 2",
+	"__metadata": {
+		"uri": "MasterPurpose(guid'fd86a96e-f7a7-42c0-9bd9-de06db5d2e37')",
+		"type": "ComplianceEvaluatorService.MasterPurpose"
+	}
+}, {
+	"ID": "79ade76e-f5ab-400c-8d64-d965aac09f95",
+	"purpose": "purpose 3",
+	"noOfRequirements": 8063,
+	"activationStatus": "activationStatus 3",
+	"createdBy": "createdBy 3",
+	"createdOn": "createdOn 3",
+	"__metadata": {
+		"uri": "MasterPurpose(guid'79ade76e-f5ab-400c-8d64-d965aac09f95')",
+		"type": "ComplianceEvaluatorService.MasterPurpose"
+	}
+}, {
+	"ID": "66675862-5168-432a-8e81-0a52b35086ea",
+	"purpose": "purpose 4",
+	"noOfRequirements": 9383,
+	"activationStatus": "activationStatus 4",
+	"createdBy": "createdBy 4",
+	"createdOn": "createdOn 4",
+	"__metadata": {
+		"uri": "MasterPurpose(guid'66675862-5168-432a-8e81-0a52b35086ea')",
+		"type": "ComplianceEvaluatorService.MasterPurpose"
+	}
+}, {
+	"ID": "5cb9eba1-757c-4e67-878a-1e8dd58c51ef",
+	"purpose": "purpose 5",
+	"noOfRequirements": 7616,
+	"activationStatus": "activationStatus 5",
+	"createdBy": "createdBy 5",
+	"createdOn": "createdOn 5",
+	"__metadata": {
+		"uri": "MasterPurpose(guid'5cb9eba1-757c-4e67-878a-1e8dd58c51ef')",
+		"type": "ComplianceEvaluatorService.MasterPurpose"
+	}
+}, {
+	"ID": "ffcd2609-df99-4416-81e2-a7b87610522e",
+	"purpose": "purpose 6",
+	"noOfRequirements": 8775,
+	"activationStatus": "activationStatus 6",
+	"createdBy": "createdBy 6",
+	"createdOn": "createdOn 6",
+	"__metadata": {
+		"uri": "MasterPurpose(guid'ffcd2609-df99-4416-81e2-a7b87610522e')",
+		"type": "ComplianceEvaluatorService.MasterPurpose"
+	}
+}, {
+	"ID": "2f6c6285-2bd1-4ce3-a12e-dc4dfaa2896b",
+	"purpose": "purpose 7",
+	"noOfRequirements": 6936,
+	"activationStatus": "activationStatus 7",
+	"createdBy": "createdBy 7",
+	"createdOn": "createdOn 7",
+	"__metadata": {
+		"uri": "MasterPurpose(guid'2f6c6285-2bd1-4ce3-a12e-dc4dfaa2896b')",
+		"type": "ComplianceEvaluatorService.MasterPurpose"
+	}
+}, {
+	"ID": "37071cb2-f04e-4210-a99d-da443c499db3",
+	"purpose": "purpose 8",
+	"noOfRequirements": 5035,
+	"activationStatus": "activationStatus 8",
+	"createdBy": "createdBy 8",
+	"createdOn": "createdOn 8",
+	"__metadata": {
+		"uri": "MasterPurpose(guid'37071cb2-f04e-4210-a99d-da443c499db3')",
+		"type": "ComplianceEvaluatorService.MasterPurpose"
+	}
+}, {
+	"ID": "c6f16667-af62-4a9b-94d0-003c8e0b10bc",
+	"purpose": "purpose 9",
+	"noOfRequirements": 6126,
+	"activationStatus": "activationStatus 9",
+	"createdBy": "createdBy 9",
+	"createdOn": "createdOn 9",
+	"__metadata": {
+		"uri": "MasterPurpose(guid'c6f16667-af62-4a9b-94d0-003c8e0b10bc')",
+		"type": "ComplianceEvaluatorService.MasterPurpose"
+	}
+}, {
+	"ID": "e9673ad8-c496-4bcb-8628-9f1988bcf6c8",
+	"purpose": "purpose 10",
+	"noOfRequirements": 3983,
+	"activationStatus": "activationStatus 10",
+	"createdBy": "createdBy 10",
+	"createdOn": "createdOn 10",
+	"__metadata": {
+		"uri": "MasterPurpose(guid'e9673ad8-c496-4bcb-8628-9f1988bcf6c8')",
+		"type": "ComplianceEvaluatorService.MasterPurpose"
+	}
+}]

@@ -1,0 +1,511 @@
+[{
+	"modifiedAt": "/Date(1130480300000+0000)/",
+	"createdAt": "/Date(1542867500000+0000)/",
+	"createdBy": "createdBy 1",
+	"modifiedBy": "modifiedBy 1",
+	"evaluationID": "bdcf2d0f-04b6-4d64-8d8b-e6c122b416b3",
+	"evaluationName": "evaluationName 1",
+	"brief": "brief 1",
+	"sellingMarket": "sellingMarket 1",
+	"validFrom": "/Date(967789100000)/",
+	"validTo": "/Date(1114237100000)/",
+	"recipeCount": 6043,
+	"evalStatus": "evalStatus 1",
+	"compliantRecipeCount": 4782,
+	"recipeCriticalityIndicator": 5449,
+	"nextEvalStatus": "nextEvalStatus 1",
+	"criticality": 7566,
+	"IsActiveEntity": true,
+	"HasActiveEntity": false,
+	"HasDraftEntity": true,
+	"DraftAdministrativeData_DraftUUID": "19a13a8e-b1d3-41ef-aac7-68c0f29ab4ef",
+	"undefined": "bdcf2d0f-04b6-4d64-8d8b-e6c122b416b3",
+	"__metadata": {
+		"uri": "Evaluation(evaluationID=guid'bdcf2d0f-04b6-4d64-8d8b-e6c122b416b3',IsActiveEntity=true)",
+		"type": "ComplianceEvaluatorService.Evaluation"
+	},
+	"recipe": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'bdcf2d0f-04b6-4d64-8d8b-e6c122b416b3',IsActiveEntity=true)/recipe"
+		}
+	},
+	"market": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'bdcf2d0f-04b6-4d64-8d8b-e6c122b416b3',IsActiveEntity=true)/market"
+		}
+	},
+	"purpose": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'bdcf2d0f-04b6-4d64-8d8b-e6c122b416b3',IsActiveEntity=true)/purpose"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'bdcf2d0f-04b6-4d64-8d8b-e6c122b416b3',IsActiveEntity=true)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'bdcf2d0f-04b6-4d64-8d8b-e6c122b416b3',IsActiveEntity=true)/SiblingEntity"
+		}
+	}
+}, {
+	"modifiedAt": "/Date(1376547500000+0000)/",
+	"createdAt": "/Date(1178000300000+0000)/",
+	"createdBy": "createdBy 2",
+	"modifiedBy": "modifiedBy 2",
+	"evaluationID": "0dc4e020-7b42-430e-82d8-cf987d5b9502",
+	"evaluationName": "evaluationName 2",
+	"brief": "brief 2",
+	"sellingMarket": "sellingMarket 2",
+	"validFrom": "/Date(1264141100000)/",
+	"validTo": "/Date(1509171500000)/",
+	"recipeCount": 8708,
+	"evalStatus": "evalStatus 2",
+	"compliantRecipeCount": 2500,
+	"recipeCriticalityIndicator": 7329,
+	"nextEvalStatus": "nextEvalStatus 2",
+	"criticality": 5370,
+	"IsActiveEntity": false,
+	"HasActiveEntity": false,
+	"HasDraftEntity": false,
+	"DraftAdministrativeData_DraftUUID": "a03fabcb-d46b-48fe-a24b-2d93db5f39fa",
+	"undefined": "0dc4e020-7b42-430e-82d8-cf987d5b9502",
+	"__metadata": {
+		"uri": "Evaluation(evaluationID=guid'0dc4e020-7b42-430e-82d8-cf987d5b9502',IsActiveEntity=false)",
+		"type": "ComplianceEvaluatorService.Evaluation"
+	},
+	"recipe": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'0dc4e020-7b42-430e-82d8-cf987d5b9502',IsActiveEntity=false)/recipe"
+		}
+	},
+	"market": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'0dc4e020-7b42-430e-82d8-cf987d5b9502',IsActiveEntity=false)/market"
+		}
+	},
+	"purpose": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'0dc4e020-7b42-430e-82d8-cf987d5b9502',IsActiveEntity=false)/purpose"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'0dc4e020-7b42-430e-82d8-cf987d5b9502',IsActiveEntity=false)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'0dc4e020-7b42-430e-82d8-cf987d5b9502',IsActiveEntity=false)/SiblingEntity"
+		}
+	}
+}, {
+	"modifiedAt": "/Date(1158819500000+0000)/",
+	"createdAt": "/Date(1404195500000+0000)/",
+	"createdBy": "createdBy 3",
+	"modifiedBy": "modifiedBy 3",
+	"evaluationID": "4cd02350-1624-42bb-b8bc-4d11c71a899d",
+	"evaluationName": "evaluationName 3",
+	"brief": "brief 3",
+	"sellingMarket": "sellingMarket 3",
+	"validFrom": "/Date(1149142700000)/",
+	"validTo": "/Date(1224656300000)/",
+	"recipeCount": 4086,
+	"evalStatus": "evalStatus 3",
+	"compliantRecipeCount": 7640,
+	"recipeCriticalityIndicator": 3914,
+	"nextEvalStatus": "nextEvalStatus 3",
+	"criticality": 3359,
+	"IsActiveEntity": false,
+	"HasActiveEntity": false,
+	"HasDraftEntity": false,
+	"DraftAdministrativeData_DraftUUID": "fbfa5c93-a6b1-45b2-820f-cd0d7f153ec0",
+	"undefined": "4cd02350-1624-42bb-b8bc-4d11c71a899d",
+	"__metadata": {
+		"uri": "Evaluation(evaluationID=guid'4cd02350-1624-42bb-b8bc-4d11c71a899d',IsActiveEntity=false)",
+		"type": "ComplianceEvaluatorService.Evaluation"
+	},
+	"recipe": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'4cd02350-1624-42bb-b8bc-4d11c71a899d',IsActiveEntity=false)/recipe"
+		}
+	},
+	"market": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'4cd02350-1624-42bb-b8bc-4d11c71a899d',IsActiveEntity=false)/market"
+		}
+	},
+	"purpose": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'4cd02350-1624-42bb-b8bc-4d11c71a899d',IsActiveEntity=false)/purpose"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'4cd02350-1624-42bb-b8bc-4d11c71a899d',IsActiveEntity=false)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'4cd02350-1624-42bb-b8bc-4d11c71a899d',IsActiveEntity=false)/SiblingEntity"
+		}
+	}
+}, {
+	"modifiedAt": "/Date(1442989100000+0000)/",
+	"createdAt": "/Date(1561702700000+0000)/",
+	"createdBy": "createdBy 4",
+	"modifiedBy": "modifiedBy 4",
+	"evaluationID": "a2497b99-15be-429c-ba9a-2d5ccd35c08c",
+	"evaluationName": "evaluationName 4",
+	"brief": "brief 4",
+	"sellingMarket": "sellingMarket 4",
+	"validFrom": "/Date(1190096300000)/",
+	"validTo": "/Date(1157696300000)/",
+	"recipeCount": 4605,
+	"evalStatus": "evalStatus 4",
+	"compliantRecipeCount": 3684,
+	"recipeCriticalityIndicator": 1902,
+	"nextEvalStatus": "nextEvalStatus 4",
+	"criticality": 161,
+	"IsActiveEntity": true,
+	"HasActiveEntity": true,
+	"HasDraftEntity": true,
+	"DraftAdministrativeData_DraftUUID": "80795fc9-0f99-4406-b5e6-ce8a8c9c037a",
+	"undefined": "a2497b99-15be-429c-ba9a-2d5ccd35c08c",
+	"__metadata": {
+		"uri": "Evaluation(evaluationID=guid'a2497b99-15be-429c-ba9a-2d5ccd35c08c',IsActiveEntity=true)",
+		"type": "ComplianceEvaluatorService.Evaluation"
+	},
+	"recipe": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'a2497b99-15be-429c-ba9a-2d5ccd35c08c',IsActiveEntity=true)/recipe"
+		}
+	},
+	"market": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'a2497b99-15be-429c-ba9a-2d5ccd35c08c',IsActiveEntity=true)/market"
+		}
+	},
+	"purpose": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'a2497b99-15be-429c-ba9a-2d5ccd35c08c',IsActiveEntity=true)/purpose"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'a2497b99-15be-429c-ba9a-2d5ccd35c08c',IsActiveEntity=true)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'a2497b99-15be-429c-ba9a-2d5ccd35c08c',IsActiveEntity=true)/SiblingEntity"
+		}
+	}
+}, {
+	"modifiedAt": "/Date(977206700000+0000)/",
+	"createdAt": "/Date(1272694700000+0000)/",
+	"createdBy": "createdBy 5",
+	"modifiedBy": "modifiedBy 5",
+	"evaluationID": "60ee31d5-ae47-4d0a-b4dd-a6e65cfe2d8f",
+	"evaluationName": "evaluationName 5",
+	"brief": "brief 5",
+	"sellingMarket": "sellingMarket 5",
+	"validFrom": "/Date(1139206700000)/",
+	"validTo": "/Date(1405318700000)/",
+	"recipeCount": 8419,
+	"evalStatus": "New",
+	"compliantRecipeCount": 8175,
+	"recipeCriticalityIndicator": 1149,
+	"nextEvalStatus": "In-Progress",
+	"criticality": 4983,
+	"IsActiveEntity": true,
+	"HasActiveEntity": false,
+	"HasDraftEntity": false,
+	"DraftAdministrativeData_DraftUUID": "de499d1c-36fe-421a-ae53-e4df11fc4894",
+	"undefined": "60ee31d5-ae47-4d0a-b4dd-a6e65cfe2d8f",
+	"__metadata": {
+		"uri": "Evaluation(evaluationID=guid'60ee31d5-ae47-4d0a-b4dd-a6e65cfe2d8f',IsActiveEntity=true)",
+		"type": "ComplianceEvaluatorService.Evaluation"
+	},
+	"recipe": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'60ee31d5-ae47-4d0a-b4dd-a6e65cfe2d8f',IsActiveEntity=true)/recipe"
+		}
+	},
+	"market": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'60ee31d5-ae47-4d0a-b4dd-a6e65cfe2d8f',IsActiveEntity=true)/market"
+		}
+	},
+	"purpose": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'60ee31d5-ae47-4d0a-b4dd-a6e65cfe2d8f',IsActiveEntity=true)/purpose"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'60ee31d5-ae47-4d0a-b4dd-a6e65cfe2d8f',IsActiveEntity=true)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'60ee31d5-ae47-4d0a-b4dd-a6e65cfe2d8f',IsActiveEntity=true)/SiblingEntity"
+		}
+	}
+}, {
+	"modifiedAt": "/Date(1132467500000+0000)/",
+	"createdAt": "/Date(1378880300000+0000)/",
+	"createdBy": "createdBy 6",
+	"modifiedBy": "modifiedBy 6",
+	"evaluationID": "328a2fc8-9828-4d50-98cd-7643c061e4d7",
+	"evaluationName": "evaluationName 6",
+	"brief": "brief 6",
+	"sellingMarket": "sellingMarket 6",
+	"validFrom": "/Date(1298960300000)/",
+	"validTo": "/Date(1516083500000)/",
+	"recipeCount": 8022,
+	"evalStatus": "evalStatus 6",
+	"compliantRecipeCount": 2652,
+	"recipeCriticalityIndicator": 3710,
+	"nextEvalStatus": "nextEvalStatus 6",
+	"criticality": 7931,
+	"IsActiveEntity": true,
+	"HasActiveEntity": false,
+	"HasDraftEntity": false,
+	"DraftAdministrativeData_DraftUUID": "63e95c6e-4854-48bf-a0d4-e0f2a7ef523e",
+	"undefined": "328a2fc8-9828-4d50-98cd-7643c061e4d7",
+	"__metadata": {
+		"uri": "Evaluation(evaluationID=guid'328a2fc8-9828-4d50-98cd-7643c061e4d7',IsActiveEntity=true)",
+		"type": "ComplianceEvaluatorService.Evaluation"
+	},
+	"recipe": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'328a2fc8-9828-4d50-98cd-7643c061e4d7',IsActiveEntity=true)/recipe"
+		}
+	},
+	"market": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'328a2fc8-9828-4d50-98cd-7643c061e4d7',IsActiveEntity=true)/market"
+		}
+	},
+	"purpose": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'328a2fc8-9828-4d50-98cd-7643c061e4d7',IsActiveEntity=true)/purpose"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'328a2fc8-9828-4d50-98cd-7643c061e4d7',IsActiveEntity=true)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'328a2fc8-9828-4d50-98cd-7643c061e4d7',IsActiveEntity=true)/SiblingEntity"
+		}
+	}
+}, {
+	"modifiedAt": "/Date(1080109100000+0000)/",
+	"createdAt": "/Date(1474957100000+0000)/",
+	"createdBy": "createdBy 7",
+	"modifiedBy": "modifiedBy 7",
+	"evaluationID": "d7403eb5-2eea-4ef3-9a2f-1880c1f55eb5",
+	"evaluationName": "evaluationName 7",
+	"brief": "brief 7",
+	"sellingMarket": "sellingMarket 7",
+	"validFrom": "/Date(1274163500000)/",
+	"validTo": "/Date(990253100000)/",
+	"recipeCount": 2456,
+	"evalStatus": "evalStatus 7",
+	"compliantRecipeCount": 1323,
+	"recipeCriticalityIndicator": 3112,
+	"nextEvalStatus": "nextEvalStatus 7",
+	"criticality": 5752,
+	"IsActiveEntity": false,
+	"HasActiveEntity": true,
+	"HasDraftEntity": false,
+	"DraftAdministrativeData_DraftUUID": "81fc2c0d-1981-4721-b219-e97758e8cc29",
+	"undefined": "d7403eb5-2eea-4ef3-9a2f-1880c1f55eb5",
+	"__metadata": {
+		"uri": "Evaluation(evaluationID=guid'd7403eb5-2eea-4ef3-9a2f-1880c1f55eb5',IsActiveEntity=false)",
+		"type": "ComplianceEvaluatorService.Evaluation"
+	},
+	"recipe": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'd7403eb5-2eea-4ef3-9a2f-1880c1f55eb5',IsActiveEntity=false)/recipe"
+		}
+	},
+	"market": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'd7403eb5-2eea-4ef3-9a2f-1880c1f55eb5',IsActiveEntity=false)/market"
+		}
+	},
+	"purpose": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'd7403eb5-2eea-4ef3-9a2f-1880c1f55eb5',IsActiveEntity=false)/purpose"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'd7403eb5-2eea-4ef3-9a2f-1880c1f55eb5',IsActiveEntity=false)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'd7403eb5-2eea-4ef3-9a2f-1880c1f55eb5',IsActiveEntity=false)/SiblingEntity"
+		}
+	}
+}, {
+	"modifiedAt": "/Date(1506579500000+0000)/",
+	"createdAt": "/Date(1429337900000+0000)/",
+	"createdBy": "createdBy 8",
+	"modifiedBy": "modifiedBy 8",
+	"evaluationID": "6aeb6da2-18ad-4521-8fd6-21cc3f0abb31",
+	"evaluationName": "evaluationName 8",
+	"brief": "brief 8",
+	"sellingMarket": "sellingMarket 8",
+	"validFrom": "/Date(1532326700000)/",
+	"validTo": "/Date(1210141100000)/",
+	"recipeCount": 125,
+	"evalStatus": "evalStatus 8",
+	"compliantRecipeCount": 4371,
+	"recipeCriticalityIndicator": 4674,
+	"nextEvalStatus": "nextEvalStatus 8",
+	"criticality": 5518,
+	"IsActiveEntity": false,
+	"HasActiveEntity": true,
+	"HasDraftEntity": false,
+	"DraftAdministrativeData_DraftUUID": "a7657936-a383-47b2-8707-5709c17fc44f",
+	"undefined": "6aeb6da2-18ad-4521-8fd6-21cc3f0abb31",
+	"__metadata": {
+		"uri": "Evaluation(evaluationID=guid'6aeb6da2-18ad-4521-8fd6-21cc3f0abb31',IsActiveEntity=false)",
+		"type": "ComplianceEvaluatorService.Evaluation"
+	},
+	"recipe": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'6aeb6da2-18ad-4521-8fd6-21cc3f0abb31',IsActiveEntity=false)/recipe"
+		}
+	},
+	"market": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'6aeb6da2-18ad-4521-8fd6-21cc3f0abb31',IsActiveEntity=false)/market"
+		}
+	},
+	"purpose": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'6aeb6da2-18ad-4521-8fd6-21cc3f0abb31',IsActiveEntity=false)/purpose"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'6aeb6da2-18ad-4521-8fd6-21cc3f0abb31',IsActiveEntity=false)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'6aeb6da2-18ad-4521-8fd6-21cc3f0abb31',IsActiveEntity=false)/SiblingEntity"
+		}
+	}
+}, {
+	"modifiedAt": "/Date(1189923500000+0000)/",
+	"createdAt": "/Date(1557469100000+0000)/",
+	"createdBy": "createdBy 9",
+	"modifiedBy": "modifiedBy 9",
+	"evaluationID": "04dacb04-7c4d-46b4-aded-ef0c8992c6f0",
+	"evaluationName": "evaluationName 9",
+	"brief": "brief 9",
+	"sellingMarket": "sellingMarket 9",
+	"validFrom": "/Date(1539929900000)/",
+	"validTo": "/Date(1555481900000)/",
+	"recipeCount": 8766,
+	"evalStatus": "evalStatus 9",
+	"compliantRecipeCount": 6115,
+	"recipeCriticalityIndicator": 7083,
+	"nextEvalStatus": "nextEvalStatus 9",
+	"criticality": 4670,
+	"IsActiveEntity": false,
+	"HasActiveEntity": true,
+	"HasDraftEntity": false,
+	"DraftAdministrativeData_DraftUUID": "bc1f2782-e203-4147-879e-65b7246642ef",
+	"undefined": "04dacb04-7c4d-46b4-aded-ef0c8992c6f0",
+	"__metadata": {
+		"uri": "Evaluation(evaluationID=guid'04dacb04-7c4d-46b4-aded-ef0c8992c6f0',IsActiveEntity=false)",
+		"type": "ComplianceEvaluatorService.Evaluation"
+	},
+	"recipe": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'04dacb04-7c4d-46b4-aded-ef0c8992c6f0',IsActiveEntity=false)/recipe"
+		}
+	},
+	"market": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'04dacb04-7c4d-46b4-aded-ef0c8992c6f0',IsActiveEntity=false)/market"
+		}
+	},
+	"purpose": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'04dacb04-7c4d-46b4-aded-ef0c8992c6f0',IsActiveEntity=false)/purpose"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'04dacb04-7c4d-46b4-aded-ef0c8992c6f0',IsActiveEntity=false)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'04dacb04-7c4d-46b4-aded-ef0c8992c6f0',IsActiveEntity=false)/SiblingEntity"
+		}
+	}
+}, {
+	"modifiedAt": "/Date(1008742700000+0000)/",
+	"createdAt": "/Date(1334989100000+0000)/",
+	"createdBy": "createdBy 10",
+	"modifiedBy": "modifiedBy 10",
+	"evaluationID": "eef5ac81-218f-41ad-9741-6b8c531c973e",
+	"evaluationName": "evaluationName 10",
+	"brief": "brief 10",
+	"sellingMarket": "sellingMarket 10",
+	"validFrom": "/Date(1039414700000)/",
+	"validTo": "/Date(1239344300000)/",
+	"recipeCount": 6907,
+	"evalStatus": "evalStatus 10",
+	"compliantRecipeCount": 9079,
+	"recipeCriticalityIndicator": 3112,
+	"nextEvalStatus": "nextEvalStatus 10",
+	"criticality": 3031,
+	"IsActiveEntity": true,
+	"HasActiveEntity": false,
+	"HasDraftEntity": true,
+	"DraftAdministrativeData_DraftUUID": "10759343-bc91-4eaa-b21a-5c53eada8d27",
+	"undefined": "eef5ac81-218f-41ad-9741-6b8c531c973e",
+	"__metadata": {
+		"uri": "Evaluation(evaluationID=guid'eef5ac81-218f-41ad-9741-6b8c531c973e',IsActiveEntity=true)",
+		"type": "ComplianceEvaluatorService.Evaluation"
+	},
+	"recipe": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'eef5ac81-218f-41ad-9741-6b8c531c973e',IsActiveEntity=true)/recipe"
+		}
+	},
+	"market": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'eef5ac81-218f-41ad-9741-6b8c531c973e',IsActiveEntity=true)/market"
+		}
+	},
+	"purpose": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'eef5ac81-218f-41ad-9741-6b8c531c973e',IsActiveEntity=true)/purpose"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'eef5ac81-218f-41ad-9741-6b8c531c973e',IsActiveEntity=true)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Evaluation(evaluationID=guid'eef5ac81-218f-41ad-9741-6b8c531c973e',IsActiveEntity=true)/SiblingEntity"
+		}
+	}
+}]

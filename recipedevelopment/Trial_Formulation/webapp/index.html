@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html style="height: 100%;">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Formula Optimizer</title>
+		<script
+				id="sap-ui-bootstrap"
+				src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+				data-sap-ui-theme="sap_belize"
+				data-sap-ui-libs="sap.m"
+				data-sap-ui-bindingSyntax="complex"
+				data-sap-ui-compatVersion="edge"
+				data-sap-ui-resourceroots='{
+					"Trial_Formulation.trial_formulation": "./"
+				}'>
+		</script>
+
+		<script>
+			sap.ui.getCore().attachInit(function () {
+				sap.ui.require([
+					"sap/ui/core/ComponentContainer"
+				], function (ComponentContainer) {
+					new ComponentContainer({
+						name : 'Trial_Formulation.trial_formulation',
+						height : "100%",
+						settings : {
+							id : "Trial_Formulation.trial_formulation"
+						}
+					}).placeAt('content');
+				});
+			});
+		</script>
+
+	</head>
+	<body class="sapUiBody sapUiSizeCompact" id="content">
+	</body>
+</html>

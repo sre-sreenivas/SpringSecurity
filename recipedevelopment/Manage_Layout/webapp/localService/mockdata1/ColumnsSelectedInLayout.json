@@ -1,0 +1,161 @@
+[{
+	"ID": "00a4c48c-0dfc-4507-abc6-9b54a431b788",
+	"categoryName": "categoryName 1",
+	"subCategoryName": "subCategoryName 1",
+	"UOM": "UOM 1",
+	"fixedCoulmn": true,
+	"layoutItemId_ID": "f3e90896-0a5e-4c86-86ea-cf9424f75486",
+	"__metadata": {
+		"uri": "ColumnsSelectedInLayout(guid'00a4c48c-0dfc-4507-abc6-9b54a431b788')",
+		"type": "ManageLayoutService.ColumnsSelectedInLayout"
+	},
+	"layoutItemId": {
+		"__deferred": {
+			"uri": "ColumnsSelectedInLayout(guid'00a4c48c-0dfc-4507-abc6-9b54a431b788')/layoutItemId"
+		}
+	}
+}, {
+	"ID": "3de340d6-7800-412b-9f0c-22f5003d8c86",
+	"categoryName": "categoryName 2",
+	"subCategoryName": "subCategoryName 2",
+	"UOM": "UOM 2",
+	"fixedCoulmn": true,
+	"layoutItemId_ID": "bfdfa469-78cd-44b8-ac65-7530dd17c45c",
+	"__metadata": {
+		"uri": "ColumnsSelectedInLayout(guid'3de340d6-7800-412b-9f0c-22f5003d8c86')",
+		"type": "ManageLayoutService.ColumnsSelectedInLayout"
+	},
+	"layoutItemId": {
+		"__deferred": {
+			"uri": "ColumnsSelectedInLayout(guid'3de340d6-7800-412b-9f0c-22f5003d8c86')/layoutItemId"
+		}
+	}
+}, {
+	"ID": "32490678-e9b7-4be4-8e52-2f1af8f209cf",
+	"categoryName": "categoryName 3",
+	"subCategoryName": "subCategoryName 3",
+	"UOM": "UOM 3",
+	"fixedCoulmn": false,
+	"layoutItemId_ID": "0c26fa31-ccf5-4b07-997f-010b4bd966bc",
+	"__metadata": {
+		"uri": "ColumnsSelectedInLayout(guid'32490678-e9b7-4be4-8e52-2f1af8f209cf')",
+		"type": "ManageLayoutService.ColumnsSelectedInLayout"
+	},
+	"layoutItemId": {
+		"__deferred": {
+			"uri": "ColumnsSelectedInLayout(guid'32490678-e9b7-4be4-8e52-2f1af8f209cf')/layoutItemId"
+		}
+	}
+}, {
+	"ID": "b14f718f-4ac1-4211-97d8-8ebd4145aa3b",
+	"categoryName": "categoryName 4",
+	"subCategoryName": "subCategoryName 4",
+	"UOM": "UOM 4",
+	"fixedCoulmn": true,
+	"layoutItemId_ID": "9c3f90fb-1e3b-4083-a1c6-ca6e8a9a2fbe",
+	"__metadata": {
+		"uri": "ColumnsSelectedInLayout(guid'b14f718f-4ac1-4211-97d8-8ebd4145aa3b')",
+		"type": "ManageLayoutService.ColumnsSelectedInLayout"
+	},
+	"layoutItemId": {
+		"__deferred": {
+			"uri": "ColumnsSelectedInLayout(guid'b14f718f-4ac1-4211-97d8-8ebd4145aa3b')/layoutItemId"
+		}
+	}
+}, {
+	"ID": "0a4d4de6-e3c4-411c-9676-3879c2ae7dde",
+	"categoryName": "categoryName 5",
+	"subCategoryName": "subCategoryName 5",
+	"UOM": "UOM 5",
+	"fixedCoulmn": false,
+	"layoutItemId_ID": "f340abaa-acf0-42f8-8432-04307c9e409e",
+	"__metadata": {
+		"uri": "ColumnsSelectedInLayout(guid'0a4d4de6-e3c4-411c-9676-3879c2ae7dde')",
+		"type": "ManageLayoutService.ColumnsSelectedInLayout"
+	},
+	"layoutItemId": {
+		"__deferred": {
+			"uri": "ColumnsSelectedInLayout(guid'0a4d4de6-e3c4-411c-9676-3879c2ae7dde')/layoutItemId"
+		}
+	}
+}, {
+	"ID": "7e7a7490-d287-4c0c-af49-b5592ea7cb2e",
+	"categoryName": "categoryName 6",
+	"subCategoryName": "subCategoryName 6",
+	"UOM": "UOM 6",
+	"fixedCoulmn": true,
+	"layoutItemId_ID": "5752f01f-49af-48a2-838d-e420f52d6f93",
+	"__metadata": {
+		"uri": "ColumnsSelectedInLayout(guid'7e7a7490-d287-4c0c-af49-b5592ea7cb2e')",
+		"type": "ManageLayoutService.ColumnsSelectedInLayout"
+	},
+	"layoutItemId": {
+		"__deferred": {
+			"uri": "ColumnsSelectedInLayout(guid'7e7a7490-d287-4c0c-af49-b5592ea7cb2e')/layoutItemId"
+		}
+	}
+}, {
+	"ID": "7f33bba1-7e88-4d42-91ce-b4f9eee9a1f3",
+	"categoryName": "categoryName 7",
+	"subCategoryName": "subCategoryName 7",
+	"UOM": "UOM 7",
+	"fixedCoulmn": false,
+	"layoutItemId_ID": "1a3db093-8991-4e82-9d99-b5c5a36ce08b",
+	"__metadata": {
+		"uri": "ColumnsSelectedInLayout(guid'7f33bba1-7e88-4d42-91ce-b4f9eee9a1f3')",
+		"type": "ManageLayoutService.ColumnsSelectedInLayout"
+	},
+	"layoutItemId": {
+		"__deferred": {
+			"uri": "ColumnsSelectedInLayout(guid'7f33bba1-7e88-4d42-91ce-b4f9eee9a1f3')/layoutItemId"
+		}
+	}
+}, {
+	"ID": "0780cc76-ea52-4fea-9900-c5356618f090",
+	"categoryName": "categoryName 8",
+	"subCategoryName": "subCategoryName 8",
+	"UOM": "UOM 8",
+	"fixedCoulmn": false,
+	"layoutItemId_ID": "72dc304e-8956-4316-b7f4-277c9adfbd2d",
+	"__metadata": {
+		"uri": "ColumnsSelectedInLayout(guid'0780cc76-ea52-4fea-9900-c5356618f090')",
+		"type": "ManageLayoutService.ColumnsSelectedInLayout"
+	},
+	"layoutItemId": {
+		"__deferred": {
+			"uri": "ColumnsSelectedInLayout(guid'0780cc76-ea52-4fea-9900-c5356618f090')/layoutItemId"
+		}
+	}
+}, {
+	"ID": "1a2176bc-f0aa-4bec-8dfb-b2af6e418bd9",
+	"categoryName": "categoryName 9",
+	"subCategoryName": "subCategoryName 9",
+	"UOM": "UOM 9",
+	"fixedCoulmn": true,
+	"layoutItemId_ID": "34d6f3e4-94b5-400f-86a1-a711c3099e6d",
+	"__metadata": {
+		"uri": "ColumnsSelectedInLayout(guid'1a2176bc-f0aa-4bec-8dfb-b2af6e418bd9')",
+		"type": "ManageLayoutService.ColumnsSelectedInLayout"
+	},
+	"layoutItemId": {
+		"__deferred": {
+			"uri": "ColumnsSelectedInLayout(guid'1a2176bc-f0aa-4bec-8dfb-b2af6e418bd9')/layoutItemId"
+		}
+	}
+}, {
+	"ID": "99f86472-fb4e-46c1-adc5-145c48b1e552",
+	"categoryName": "categoryName 10",
+	"subCategoryName": "subCategoryName 10",
+	"UOM": "UOM 10",
+	"fixedCoulmn": false,
+	"layoutItemId_ID": "81972519-01a4-4fcf-8eb8-96044bbbf8cc",
+	"__metadata": {
+		"uri": "ColumnsSelectedInLayout(guid'99f86472-fb4e-46c1-adc5-145c48b1e552')",
+		"type": "ManageLayoutService.ColumnsSelectedInLayout"
+	},
+	"layoutItemId": {
+		"__deferred": {
+			"uri": "ColumnsSelectedInLayout(guid'99f86472-fb4e-46c1-adc5-145c48b1e552')/layoutItemId"
+		}
+	}
+}]

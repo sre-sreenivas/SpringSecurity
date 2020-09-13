@@ -1,0 +1,111 @@
+[{
+	"specificationID": "specificationID 1",
+	"specificationDescription": "specificationDescription 1",
+	"formulaItemDescription": "formulaItemDescription 1",
+	"density": 2.0229533793968884,
+	"createdBY": "createdBY 1",
+	"specType": "specType 1",
+	"__metadata": {
+		"uri": "Specification('specificationID%201')",
+		"type": "RecipeService.Specification"
+	}
+}, {
+	"specificationID": "specificationID 2",
+	"specificationDescription": "specificationDescription 2",
+	"formulaItemDescription": "formulaItemDescription 2",
+	"density": 0.07284166502945082,
+	"createdBY": "createdBY 2",
+	"specType": "specType 2",
+	"__metadata": {
+		"uri": "Specification('specificationID%202')",
+		"type": "RecipeService.Specification"
+	}
+}, {
+	"specificationID": "specificationID 3",
+	"specificationDescription": "specificationDescription 3",
+	"formulaItemDescription": "formulaItemDescription 3",
+	"density": 4.881755082344287,
+	"createdBY": "createdBY 3",
+	"specType": "specType 3",
+	"__metadata": {
+		"uri": "Specification('specificationID%203')",
+		"type": "RecipeService.Specification"
+	}
+}, {
+	"specificationID": "specificationID 4",
+	"specificationDescription": "specificationDescription 4",
+	"formulaItemDescription": "formulaItemDescription 4",
+	"density": 7.647493893722652,
+	"createdBY": "createdBY 4",
+	"specType": "specType 4",
+	"__metadata": {
+		"uri": "Specification('specificationID%204')",
+		"type": "RecipeService.Specification"
+	}
+}, {
+	"specificationID": "specificationID 5",
+	"specificationDescription": "specificationDescription 5",
+	"formulaItemDescription": "formulaItemDescription 5",
+	"density": 6.07074580268565,
+	"createdBY": "createdBY 5",
+	"specType": "specType 5",
+	"__metadata": {
+		"uri": "Specification('specificationID%205')",
+		"type": "RecipeService.Specification"
+	}
+}, {
+	"specificationID": "specificationID 6",
+	"specificationDescription": "specificationDescription 6",
+	"formulaItemDescription": "formulaItemDescription 6",
+	"density": 9.25955795514639,
+	"createdBY": "createdBY 6",
+	"specType": "specType 6",
+	"__metadata": {
+		"uri": "Specification('specificationID%206')",
+		"type": "RecipeService.Specification"
+	}
+}, {
+	"specificationID": "specificationID 7",
+	"specificationDescription": "specificationDescription 7",
+	"formulaItemDescription": "formulaItemDescription 7",
+	"density": 2.919034744784856,
+	"createdBY": "createdBY 7",
+	"specType": "specType 7",
+	"__metadata": {
+		"uri": "Specification('specificationID%207')",
+		"type": "RecipeService.Specification"
+	}
+}, {
+	"specificationID": "specificationID 8",
+	"specificationDescription": "specificationDescription 8",
+	"formulaItemDescription": "formulaItemDescription 8",
+	"density": 0.14460963555784243,
+	"createdBY": "createdBY 8",
+	"specType": "specType 8",
+	"__metadata": {
+		"uri": "Specification('specificationID%208')",
+		"type": "RecipeService.Specification"
+	}
+}, {
+	"specificationID": "specificationID 9",
+	"specificationDescription": "specificationDescription 9",
+	"formulaItemDescription": "formulaItemDescription 9",
+	"density": 6.073236902802769,
+	"createdBY": "createdBY 9",
+	"specType": "specType 9",
+	"__metadata": {
+		"uri": "Specification('specificationID%209')",
+		"type": "RecipeService.Specification"
+	}
+}, {
+	"specificationID": "specificationID 10",
+	"specificationDescription": "specificationDescription 10",
+	"formulaItemDescription": "formulaItemDescription 10",
+	"density": 9.360342480060273,
+	"createdBY": "createdBY 10",
+	"specType": "specType 10",
+	"__metadata": {
+		"uri": "Specification('specificationID%2010')",
+		"type": "RecipeService.Specification"
+	}
+}]

@@ -1,0 +1,81 @@
+[{
+	"ID": 4381,
+	"categoryId": 4359,
+	"subCategoryName": "subCategoryName 1",
+	"__metadata": {
+		"uri": "Subcategory(4381)",
+		"type": "ManageLayoutService.Subcategory"
+	}
+}, {
+	"ID": 7134,
+	"categoryId": 7977,
+	"subCategoryName": "subCategoryName 2",
+	"__metadata": {
+		"uri": "Subcategory(7134)",
+		"type": "ManageLayoutService.Subcategory"
+	}
+}, {
+	"ID": 9796,
+	"categoryId": 176,
+	"subCategoryName": "subCategoryName 3",
+	"__metadata": {
+		"uri": "Subcategory(9796)",
+		"type": "ManageLayoutService.Subcategory"
+	}
+}, {
+	"ID": 6300,
+	"categoryId": 6293,
+	"subCategoryName": "subCategoryName 4",
+	"__metadata": {
+		"uri": "Subcategory(6300)",
+		"type": "ManageLayoutService.Subcategory"
+	}
+}, {
+	"ID": 7491,
+	"categoryId": 9265,
+	"subCategoryName": "subCategoryName 5",
+	"__metadata": {
+		"uri": "Subcategory(7491)",
+		"type": "ManageLayoutService.Subcategory"
+	}
+}, {
+	"ID": 7779,
+	"categoryId": 8090,
+	"subCategoryName": "subCategoryName 6",
+	"__metadata": {
+		"uri": "Subcategory(7779)",
+		"type": "ManageLayoutService.Subcategory"
+	}
+}, {
+	"ID": 8379,
+	"categoryId": 9735,
+	"subCategoryName": "subCategoryName 7",
+	"__metadata": {
+		"uri": "Subcategory(8379)",
+		"type": "ManageLayoutService.Subcategory"
+	}
+}, {
+	"ID": 7418,
+	"categoryId": 6883,
+	"subCategoryName": "subCategoryName 8",
+	"__metadata": {
+		"uri": "Subcategory(7418)",
+		"type": "ManageLayoutService.Subcategory"
+	}
+}, {
+	"ID": 1607,
+	"categoryId": 6261,
+	"subCategoryName": "subCategoryName 9",
+	"__metadata": {
+		"uri": "Subcategory(1607)",
+		"type": "ManageLayoutService.Subcategory"
+	}
+}, {
+	"ID": 9600,
+	"categoryId": 4098,
+	"subCategoryName": "subCategoryName 10",
+	"__metadata": {
+		"uri": "Subcategory(9600)",
+		"type": "ManageLayoutService.Subcategory"
+	}
+}]

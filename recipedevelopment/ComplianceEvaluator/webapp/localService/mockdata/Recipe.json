@@ -1,0 +1,701 @@
+[{
+	"ID": "b4d28e25-ac97-43fc-a6d2-a8de837b4d16",
+	"evaluationID": "bdcf2d0f-04b6-4d64-8d8b-e6c122b416b3",
+	"recipeDescription": "recipeDescription 1",
+	"recipeType": "recipeType 1",
+	"compliantStatus": "compliantStatus 1",
+	"relevantEvaluation": true,
+	"recipeId": "recipeId 1",
+	"copyRecipe": "copyRecipe 1",
+	"recipeStatus": "recipeStatus 1",
+	"IsActiveEntity": true,
+	"HasActiveEntity": false,
+	"HasDraftEntity": false,
+	"DraftAdministrativeData_DraftUUID": "ca78b7cb-20d0-4c82-9aa3-0454e810fba8",
+	"__metadata": {
+		"uri": "Recipe(ID=guid'b4d28e25-ac97-43fc-a6d2-a8de837b4d16',IsActiveEntity=true)",
+		"type": "ComplianceEvaluatorService.Recipe"
+	},
+	"evaluationRecipe": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'b4d28e25-ac97-43fc-a6d2-a8de837b4d16',IsActiveEntity=true)/evaluationRecipe"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'b4d28e25-ac97-43fc-a6d2-a8de837b4d16',IsActiveEntity=true)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'b4d28e25-ac97-43fc-a6d2-a8de837b4d16',IsActiveEntity=true)/SiblingEntity"
+		}
+	}
+}, {
+	"ID": "e7fbb5e4-6695-4528-b8d8-7035c0357cb9",
+	"evaluationID": "0dc4e020-7b42-430e-82d8-cf987d5b9502",
+	"recipeDescription": "recipeDescription 2",
+	"recipeType": "recipeType 2",
+	"compliantStatus": "compliantStatus 2",
+	"relevantEvaluation": false,
+	"recipeId": "a86000d7-3f7d-41d2-a2e9-256d66ac8930",
+	"copyRecipe": "copyRecipe 2",
+	"recipeStatus": "recipeStatus 2",
+	"IsActiveEntity": true,
+	"HasActiveEntity": false,
+	"HasDraftEntity": true,
+	"DraftAdministrativeData_DraftUUID": "0564154c-8ed8-4d41-9f23-dc5b59fa75a3",
+	"__metadata": {
+		"uri": "Recipe(ID=guid'e7fbb5e4-6695-4528-b8d8-7035c0357cb9',IsActiveEntity=true)",
+		"type": "ComplianceEvaluatorService.Recipe"
+	},
+	"evaluationRecipe": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'e7fbb5e4-6695-4528-b8d8-7035c0357cb9',IsActiveEntity=true)/evaluationRecipe"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'e7fbb5e4-6695-4528-b8d8-7035c0357cb9',IsActiveEntity=true)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'e7fbb5e4-6695-4528-b8d8-7035c0357cb9',IsActiveEntity=true)/SiblingEntity"
+		}
+	}
+}, {
+	"ID": "fa437485-8368-4cb1-bfbd-4621160eb7f5",
+	"evaluationID": "4cd02350-1624-42bb-b8bc-4d11c71a899d",
+	"recipeDescription": "recipeDescription 3",
+	"recipeType": "recipeType 3",
+	"compliantStatus": "compliantStatus 3",
+	"relevantEvaluation": false,
+	"recipeId": "recipeId 3",
+	"copyRecipe": "copyRecipe 3",
+	"recipeStatus": "recipeStatus 3",
+	"IsActiveEntity": false,
+	"HasActiveEntity": false,
+	"HasDraftEntity": false,
+	"DraftAdministrativeData_DraftUUID": "f13de369-013c-400d-953b-2086cb3a43cd",
+	"__metadata": {
+		"uri": "Recipe(ID=guid'fa437485-8368-4cb1-bfbd-4621160eb7f5',IsActiveEntity=false)",
+		"type": "ComplianceEvaluatorService.Recipe"
+	},
+	"evaluationRecipe": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'fa437485-8368-4cb1-bfbd-4621160eb7f5',IsActiveEntity=false)/evaluationRecipe"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'fa437485-8368-4cb1-bfbd-4621160eb7f5',IsActiveEntity=false)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'fa437485-8368-4cb1-bfbd-4621160eb7f5',IsActiveEntity=false)/SiblingEntity"
+		}
+	}
+}, {
+	"ID": "063a3395-7b14-4d7e-b0c7-7890cf72e6e7",
+	"evaluationID": "a2497b99-15be-429c-ba9a-2d5ccd35c08c",
+	"recipeDescription": "recipeDescription 4",
+	"recipeType": "recipeType 4",
+	"compliantStatus": "compliantStatus 4",
+	"relevantEvaluation": true,
+	"recipeId": "recipeId 4",
+	"copyRecipe": "copyRecipe 4",
+	"recipeStatus": "recipeStatus 4",
+	"IsActiveEntity": true,
+	"HasActiveEntity": false,
+	"HasDraftEntity": true,
+	"DraftAdministrativeData_DraftUUID": "cb2c7b6c-a0dd-435c-8de2-3da70fceaaa7",
+	"__metadata": {
+		"uri": "Recipe(ID=guid'063a3395-7b14-4d7e-b0c7-7890cf72e6e7',IsActiveEntity=true)",
+		"type": "ComplianceEvaluatorService.Recipe"
+	},
+	"evaluationRecipe": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'063a3395-7b14-4d7e-b0c7-7890cf72e6e7',IsActiveEntity=true)/evaluationRecipe"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'063a3395-7b14-4d7e-b0c7-7890cf72e6e7',IsActiveEntity=true)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'063a3395-7b14-4d7e-b0c7-7890cf72e6e7',IsActiveEntity=true)/SiblingEntity"
+		}
+	}
+}, {
+	"ID": "bf24da29-10b7-4bad-9e9b-67eb318750c6",
+	"evaluationID": "60ee31d5-ae47-4d0a-b4dd-a6e65cfe2d8f",
+	"recipeDescription": "recipeDescription 5",
+	"recipeType": "recipeType 5",
+	"compliantStatus": "compliantStatus 5",
+	"relevantEvaluation": false,
+	"recipeId": "recipeId 5",
+	"copyRecipe": "copyRecipe 5",
+	"recipeStatus": "recipeStatus 5",
+	"IsActiveEntity": true,
+	"HasActiveEntity": true,
+	"HasDraftEntity": false,
+	"DraftAdministrativeData_DraftUUID": "93352755-3f84-405e-bb68-781e5e224102",
+	"__metadata": {
+		"uri": "Recipe(ID=guid'bf24da29-10b7-4bad-9e9b-67eb318750c6',IsActiveEntity=true)",
+		"type": "ComplianceEvaluatorService.Recipe"
+	},
+	"evaluationRecipe": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'bf24da29-10b7-4bad-9e9b-67eb318750c6',IsActiveEntity=true)/evaluationRecipe"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'bf24da29-10b7-4bad-9e9b-67eb318750c6',IsActiveEntity=true)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'bf24da29-10b7-4bad-9e9b-67eb318750c6',IsActiveEntity=true)/SiblingEntity"
+		}
+	}
+}, {
+	"ID": "2c73bab9-9fb2-49ff-9591-2a035dfc5a7b",
+	"evaluationID": "328a2fc8-9828-4d50-98cd-7643c061e4d7",
+	"recipeDescription": "recipeDescription 6",
+	"recipeType": "recipeType 6",
+	"compliantStatus": "compliantStatus 6",
+	"relevantEvaluation": true,
+	"recipeId": "recipeId 6",
+	"copyRecipe": "copyRecipe 6",
+	"recipeStatus": "recipeStatus 6",
+	"IsActiveEntity": false,
+	"HasActiveEntity": false,
+	"HasDraftEntity": false,
+	"DraftAdministrativeData_DraftUUID": "133764c9-dfca-4320-9558-3f677c7b10cb",
+	"__metadata": {
+		"uri": "Recipe(ID=guid'2c73bab9-9fb2-49ff-9591-2a035dfc5a7b',IsActiveEntity=false)",
+		"type": "ComplianceEvaluatorService.Recipe"
+	},
+	"evaluationRecipe": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'2c73bab9-9fb2-49ff-9591-2a035dfc5a7b',IsActiveEntity=false)/evaluationRecipe"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'2c73bab9-9fb2-49ff-9591-2a035dfc5a7b',IsActiveEntity=false)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'2c73bab9-9fb2-49ff-9591-2a035dfc5a7b',IsActiveEntity=false)/SiblingEntity"
+		}
+	}
+}, {
+	"ID": "92d746f0-21b1-4b40-bebc-1e1574b607c7",
+	"evaluationID": "d7403eb5-2eea-4ef3-9a2f-1880c1f55eb5",
+	"recipeDescription": "recipeDescription 7",
+	"recipeType": "recipeType 7",
+	"compliantStatus": "compliantStatus 7",
+	"relevantEvaluation": true,
+	"recipeId": "recipeId 7",
+	"copyRecipe": "copyRecipe 7",
+	"recipeStatus": "recipeStatus 7",
+	"IsActiveEntity": false,
+	"HasActiveEntity": true,
+	"HasDraftEntity": true,
+	"DraftAdministrativeData_DraftUUID": "dd6b613a-7ba7-416f-8c93-18bc4e988fdd",
+	"__metadata": {
+		"uri": "Recipe(ID=guid'92d746f0-21b1-4b40-bebc-1e1574b607c7',IsActiveEntity=false)",
+		"type": "ComplianceEvaluatorService.Recipe"
+	},
+	"evaluationRecipe": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'92d746f0-21b1-4b40-bebc-1e1574b607c7',IsActiveEntity=false)/evaluationRecipe"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'92d746f0-21b1-4b40-bebc-1e1574b607c7',IsActiveEntity=false)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'92d746f0-21b1-4b40-bebc-1e1574b607c7',IsActiveEntity=false)/SiblingEntity"
+		}
+	}
+}, {
+	"ID": "a2850a66-c950-46ca-b84d-2434ced637c5",
+	"evaluationID": "6aeb6da2-18ad-4521-8fd6-21cc3f0abb31",
+	"recipeDescription": "recipeDescription 8",
+	"recipeType": "recipeType 8",
+	"compliantStatus": "compliantStatus 8",
+	"relevantEvaluation": true,
+	"recipeId": "recipeId 8",
+	"copyRecipe": "copyRecipe 8",
+	"recipeStatus": "recipeStatus 8",
+	"IsActiveEntity": false,
+	"HasActiveEntity": true,
+	"HasDraftEntity": false,
+	"DraftAdministrativeData_DraftUUID": "cfccbc8d-b814-4216-a18f-a0ff893042dd",
+	"__metadata": {
+		"uri": "Recipe(ID=guid'a2850a66-c950-46ca-b84d-2434ced637c5',IsActiveEntity=false)",
+		"type": "ComplianceEvaluatorService.Recipe"
+	},
+	"evaluationRecipe": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'a2850a66-c950-46ca-b84d-2434ced637c5',IsActiveEntity=false)/evaluationRecipe"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'a2850a66-c950-46ca-b84d-2434ced637c5',IsActiveEntity=false)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'a2850a66-c950-46ca-b84d-2434ced637c5',IsActiveEntity=false)/SiblingEntity"
+		}
+	}
+}, {
+	"ID": "ed51dc56-3d7f-4d18-97d3-b9176486939d",
+	"evaluationID": "04dacb04-7c4d-46b4-aded-ef0c8992c6f0",
+	"recipeDescription": "recipeDescription 9",
+	"recipeType": "recipeType 9",
+	"compliantStatus": "compliantStatus 9",
+	"relevantEvaluation": false,
+	"recipeId": "recipeId 9",
+	"copyRecipe": "copyRecipe 9",
+	"recipeStatus": "recipeStatus 9",
+	"IsActiveEntity": true,
+	"HasActiveEntity": true,
+	"HasDraftEntity": false,
+	"DraftAdministrativeData_DraftUUID": "21dec5ca-8357-48e3-a5ba-3994eca50d10",
+	"__metadata": {
+		"uri": "Recipe(ID=guid'ed51dc56-3d7f-4d18-97d3-b9176486939d',IsActiveEntity=true)",
+		"type": "ComplianceEvaluatorService.Recipe"
+	},
+	"evaluationRecipe": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'ed51dc56-3d7f-4d18-97d3-b9176486939d',IsActiveEntity=true)/evaluationRecipe"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'ed51dc56-3d7f-4d18-97d3-b9176486939d',IsActiveEntity=true)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'ed51dc56-3d7f-4d18-97d3-b9176486939d',IsActiveEntity=true)/SiblingEntity"
+		}
+	}
+}, {
+	"ID": "f680c204-733f-4d65-b090-b4c7ccd383f1",
+	"evaluationID": "eef5ac81-218f-41ad-9741-6b8c531c973e",
+	"recipeDescription": "recipeDescription 10",
+	"recipeType": "recipeType 10",
+	"compliantStatus": "compliantStatus 10",
+	"relevantEvaluation": false,
+	"recipeId": "recipeId 10",
+	"copyRecipe": "copyRecipe 10",
+	"recipeStatus": "recipeStatus 10",
+	"IsActiveEntity": true,
+	"HasActiveEntity": true,
+	"HasDraftEntity": false,
+	"DraftAdministrativeData_DraftUUID": "27db8a13-44b1-4918-a200-63732d2034cb",
+	"__metadata": {
+		"uri": "Recipe(ID=guid'f680c204-733f-4d65-b090-b4c7ccd383f1',IsActiveEntity=true)",
+		"type": "ComplianceEvaluatorService.Recipe"
+	},
+	"evaluationRecipe": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'f680c204-733f-4d65-b090-b4c7ccd383f1',IsActiveEntity=true)/evaluationRecipe"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'f680c204-733f-4d65-b090-b4c7ccd383f1',IsActiveEntity=true)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'f680c204-733f-4d65-b090-b4c7ccd383f1',IsActiveEntity=true)/SiblingEntity"
+		}
+	}
+}, {
+	"ID": "b4d28e25-ac97-43fc-a6d2-a8de837b4d16",
+	"evaluationID": "bdcf2d0f-04b6-4d64-8d8b-e6c122b416b3",
+	"recipeDescription": "recipeDescription 1",
+	"recipeType": "recipeType 1",
+	"compliantStatus": "compliantStatus 1",
+	"relevantEvaluation": true,
+	"recipeId": "recipeId 1",
+	"copyRecipe": "copyRecipe 1",
+	"recipeStatus": "recipeStatus 1",
+	"createdBy": "createdBy 1",
+	"createdOn": "createdOn 1",
+	"changedBy": "changedBy 1",
+	"changedOn": "changedOn 1",
+	"IsActiveEntity": true,
+	"HasActiveEntity": false,
+	"HasDraftEntity": false,
+	"DraftAdministrativeData_DraftUUID": "ca78b7cb-20d0-4c82-9aa3-0454e810fba8",
+	"__metadata": {
+		"uri": "Recipe(ID=guid'b4d28e25-ac97-43fc-a6d2-a8de837b4d16',IsActiveEntity=true)",
+		"type": "ComplianceEvaluatorService.Recipe"
+	},
+	"evaluationRecipe": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'b4d28e25-ac97-43fc-a6d2-a8de837b4d16',IsActiveEntity=true)/evaluationRecipe"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'b4d28e25-ac97-43fc-a6d2-a8de837b4d16',IsActiveEntity=true)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'b4d28e25-ac97-43fc-a6d2-a8de837b4d16',IsActiveEntity=true)/SiblingEntity"
+		}
+	}
+}, {
+	"ID": "e7fbb5e4-6695-4528-b8d8-7035c0357cb9",
+	"evaluationID": "0dc4e020-7b42-430e-82d8-cf987d5b9502",
+	"recipeDescription": "recipeDescription 2",
+	"recipeType": "recipeType 2",
+	"compliantStatus": "compliantStatus 2",
+	"relevantEvaluation": false,
+	"recipeId": "recipeId 2",
+	"copyRecipe": "copyRecipe 2",
+	"recipeStatus": "recipeStatus 2",
+	"createdBy": "createdBy 2",
+	"createdOn": "createdOn 2",
+	"changedBy": "changedBy 2",
+	"changedOn": "changedOn 2",
+	"IsActiveEntity": true,
+	"HasActiveEntity": false,
+	"HasDraftEntity": true,
+	"DraftAdministrativeData_DraftUUID": "0564154c-8ed8-4d41-9f23-dc5b59fa75a3",
+	"__metadata": {
+		"uri": "Recipe(ID=guid'e7fbb5e4-6695-4528-b8d8-7035c0357cb9',IsActiveEntity=true)",
+		"type": "ComplianceEvaluatorService.Recipe"
+	},
+	"evaluationRecipe": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'e7fbb5e4-6695-4528-b8d8-7035c0357cb9',IsActiveEntity=true)/evaluationRecipe"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'e7fbb5e4-6695-4528-b8d8-7035c0357cb9',IsActiveEntity=true)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'e7fbb5e4-6695-4528-b8d8-7035c0357cb9',IsActiveEntity=true)/SiblingEntity"
+		}
+	}
+}, {
+	"ID": "fa437485-8368-4cb1-bfbd-4621160eb7f5",
+	"evaluationID": "4cd02350-1624-42bb-b8bc-4d11c71a899d",
+	"recipeDescription": "recipeDescription 3",
+	"recipeType": "recipeType 3",
+	"compliantStatus": "compliantStatus 3",
+	"relevantEvaluation": false,
+	"recipeId": "recipeId 3",
+	"copyRecipe": "copyRecipe 3",
+	"recipeStatus": "recipeStatus 3",
+	"createdBy": "createdBy 3",
+	"createdOn": "createdOn 3",
+	"changedBy": "changedBy 3",
+	"changedOn": "changedOn 3",
+	"IsActiveEntity": false,
+	"HasActiveEntity": false,
+	"HasDraftEntity": false,
+	"DraftAdministrativeData_DraftUUID": "f13de369-013c-400d-953b-2086cb3a43cd",
+	"__metadata": {
+		"uri": "Recipe(ID=guid'fa437485-8368-4cb1-bfbd-4621160eb7f5',IsActiveEntity=false)",
+		"type": "ComplianceEvaluatorService.Recipe"
+	},
+	"evaluationRecipe": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'fa437485-8368-4cb1-bfbd-4621160eb7f5',IsActiveEntity=false)/evaluationRecipe"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'fa437485-8368-4cb1-bfbd-4621160eb7f5',IsActiveEntity=false)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'fa437485-8368-4cb1-bfbd-4621160eb7f5',IsActiveEntity=false)/SiblingEntity"
+		}
+	}
+}, {
+	"ID": "063a3395-7b14-4d7e-b0c7-7890cf72e6e7",
+	"evaluationID": "a2497b99-15be-429c-ba9a-2d5ccd35c08c",
+	"recipeDescription": "recipeDescription 4",
+	"recipeType": "recipeType 4",
+	"compliantStatus": "compliantStatus 4",
+	"relevantEvaluation": true,
+	"recipeId": "recipeId 4",
+	"copyRecipe": "copyRecipe 4",
+	"recipeStatus": "recipeStatus 4",
+	"createdBy": "createdBy 4",
+	"createdOn": "createdOn 4",
+	"changedBy": "changedBy 4",
+	"changedOn": "changedOn 4",
+	"IsActiveEntity": true,
+	"HasActiveEntity": false,
+	"HasDraftEntity": true,
+	"DraftAdministrativeData_DraftUUID": "cb2c7b6c-a0dd-435c-8de2-3da70fceaaa7",
+	"__metadata": {
+		"uri": "Recipe(ID=guid'063a3395-7b14-4d7e-b0c7-7890cf72e6e7',IsActiveEntity=true)",
+		"type": "ComplianceEvaluatorService.Recipe"
+	},
+	"evaluationRecipe": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'063a3395-7b14-4d7e-b0c7-7890cf72e6e7',IsActiveEntity=true)/evaluationRecipe"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'063a3395-7b14-4d7e-b0c7-7890cf72e6e7',IsActiveEntity=true)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'063a3395-7b14-4d7e-b0c7-7890cf72e6e7',IsActiveEntity=true)/SiblingEntity"
+		}
+	}
+}, {
+	"ID": "bf24da29-10b7-4bad-9e9b-67eb318750c6",
+	"evaluationID": "60ee31d5-ae47-4d0a-b4dd-a6e65cfe2d8f",
+	"recipeDescription": "recipeDescription 5",
+	"recipeType": "recipeType 5",
+	"compliantStatus": "compliantStatus 5",
+	"relevantEvaluation": false,
+	"recipeId": "recipeId 5",
+	"copyRecipe": "copyRecipe 5",
+	"recipeStatus": "recipeStatus 5",
+	"createdBy": "createdBy 5",
+	"createdOn": "createdOn 5",
+	"changedBy": "changedBy 5",
+	"changedOn": "changedOn 5",
+	"IsActiveEntity": true,
+	"HasActiveEntity": true,
+	"HasDraftEntity": false,
+	"DraftAdministrativeData_DraftUUID": "93352755-3f84-405e-bb68-781e5e224102",
+	"__metadata": {
+		"uri": "Recipe(ID=guid'bf24da29-10b7-4bad-9e9b-67eb318750c6',IsActiveEntity=true)",
+		"type": "ComplianceEvaluatorService.Recipe"
+	},
+	"evaluationRecipe": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'bf24da29-10b7-4bad-9e9b-67eb318750c6',IsActiveEntity=true)/evaluationRecipe"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'bf24da29-10b7-4bad-9e9b-67eb318750c6',IsActiveEntity=true)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'bf24da29-10b7-4bad-9e9b-67eb318750c6',IsActiveEntity=true)/SiblingEntity"
+		}
+	}
+}, {
+	"ID": "2c73bab9-9fb2-49ff-9591-2a035dfc5a7b",
+	"evaluationID": "328a2fc8-9828-4d50-98cd-7643c061e4d7",
+	"recipeDescription": "recipeDescription 6",
+	"recipeType": "recipeType 6",
+	"compliantStatus": "compliantStatus 6",
+	"relevantEvaluation": true,
+	"recipeId": "recipeId 6",
+	"copyRecipe": "copyRecipe 6",
+	"recipeStatus": "recipeStatus 6",
+	"createdBy": "createdBy 6",
+	"createdOn": "createdOn 6",
+	"changedBy": "changedBy 6",
+	"changedOn": "changedOn 6",
+	"IsActiveEntity": false,
+	"HasActiveEntity": false,
+	"HasDraftEntity": false,
+	"DraftAdministrativeData_DraftUUID": "133764c9-dfca-4320-9558-3f677c7b10cb",
+	"__metadata": {
+		"uri": "Recipe(ID=guid'2c73bab9-9fb2-49ff-9591-2a035dfc5a7b',IsActiveEntity=false)",
+		"type": "ComplianceEvaluatorService.Recipe"
+	},
+	"evaluationRecipe": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'2c73bab9-9fb2-49ff-9591-2a035dfc5a7b',IsActiveEntity=false)/evaluationRecipe"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'2c73bab9-9fb2-49ff-9591-2a035dfc5a7b',IsActiveEntity=false)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'2c73bab9-9fb2-49ff-9591-2a035dfc5a7b',IsActiveEntity=false)/SiblingEntity"
+		}
+	}
+}, {
+	"ID": "92d746f0-21b1-4b40-bebc-1e1574b607c7",
+	"evaluationID": "d7403eb5-2eea-4ef3-9a2f-1880c1f55eb5",
+	"recipeDescription": "recipeDescription 7",
+	"recipeType": "recipeType 7",
+	"compliantStatus": "compliantStatus 7",
+	"relevantEvaluation": true,
+	"recipeId": "recipeId 7",
+	"copyRecipe": "copyRecipe 7",
+	"recipeStatus": "recipeStatus 7",
+	"createdBy": "createdBy 7",
+	"createdOn": "createdOn 7",
+	"changedBy": "changedBy 7",
+	"changedOn": "changedOn 7",
+	"IsActiveEntity": false,
+	"HasActiveEntity": true,
+	"HasDraftEntity": true,
+	"DraftAdministrativeData_DraftUUID": "dd6b613a-7ba7-416f-8c93-18bc4e988fdd",
+	"__metadata": {
+		"uri": "Recipe(ID=guid'92d746f0-21b1-4b40-bebc-1e1574b607c7',IsActiveEntity=false)",
+		"type": "ComplianceEvaluatorService.Recipe"
+	},
+	"evaluationRecipe": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'92d746f0-21b1-4b40-bebc-1e1574b607c7',IsActiveEntity=false)/evaluationRecipe"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'92d746f0-21b1-4b40-bebc-1e1574b607c7',IsActiveEntity=false)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'92d746f0-21b1-4b40-bebc-1e1574b607c7',IsActiveEntity=false)/SiblingEntity"
+		}
+	}
+}, {
+	"ID": "a2850a66-c950-46ca-b84d-2434ced637c5",
+	"evaluationID": "6aeb6da2-18ad-4521-8fd6-21cc3f0abb31",
+	"recipeDescription": "recipeDescription 8",
+	"recipeType": "recipeType 8",
+	"compliantStatus": "compliantStatus 8",
+	"relevantEvaluation": true,
+	"recipeId": "recipeId 8",
+	"copyRecipe": "copyRecipe 8",
+	"recipeStatus": "recipeStatus 8",
+	"createdBy": "createdBy 8",
+	"createdOn": "createdOn 8",
+	"changedBy": "changedBy 8",
+	"changedOn": "changedOn 8",
+	"IsActiveEntity": false,
+	"HasActiveEntity": true,
+	"HasDraftEntity": false,
+	"DraftAdministrativeData_DraftUUID": "cfccbc8d-b814-4216-a18f-a0ff893042dd",
+	"__metadata": {
+		"uri": "Recipe(ID=guid'a2850a66-c950-46ca-b84d-2434ced637c5',IsActiveEntity=false)",
+		"type": "ComplianceEvaluatorService.Recipe"
+	},
+	"evaluationRecipe": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'a2850a66-c950-46ca-b84d-2434ced637c5',IsActiveEntity=false)/evaluationRecipe"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'a2850a66-c950-46ca-b84d-2434ced637c5',IsActiveEntity=false)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'a2850a66-c950-46ca-b84d-2434ced637c5',IsActiveEntity=false)/SiblingEntity"
+		}
+	}
+}, {
+	"ID": "ed51dc56-3d7f-4d18-97d3-b9176486939d",
+	"evaluationID": "04dacb04-7c4d-46b4-aded-ef0c8992c6f0",
+	"recipeDescription": "recipeDescription 9",
+	"recipeType": "recipeType 9",
+	"compliantStatus": "compliantStatus 9",
+	"relevantEvaluation": false,
+	"recipeId": "recipeId 9",
+	"copyRecipe": "copyRecipe 9",
+	"recipeStatus": "recipeStatus 9",
+	"createdBy": "createdBy 9",
+	"createdOn": "createdOn 9",
+	"changedBy": "changedBy 9",
+	"changedOn": "changedOn 9",
+	"IsActiveEntity": true,
+	"HasActiveEntity": true,
+	"HasDraftEntity": false,
+	"DraftAdministrativeData_DraftUUID": "21dec5ca-8357-48e3-a5ba-3994eca50d10",
+	"__metadata": {
+		"uri": "Recipe(ID=guid'ed51dc56-3d7f-4d18-97d3-b9176486939d',IsActiveEntity=true)",
+		"type": "ComplianceEvaluatorService.Recipe"
+	},
+	"evaluationRecipe": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'ed51dc56-3d7f-4d18-97d3-b9176486939d',IsActiveEntity=true)/evaluationRecipe"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'ed51dc56-3d7f-4d18-97d3-b9176486939d',IsActiveEntity=true)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'ed51dc56-3d7f-4d18-97d3-b9176486939d',IsActiveEntity=true)/SiblingEntity"
+		}
+	}
+}, {
+	"ID": "f680c204-733f-4d65-b090-b4c7ccd383f1",
+	"evaluationID": "eef5ac81-218f-41ad-9741-6b8c531c973e",
+	"recipeDescription": "recipeDescription 10",
+	"recipeType": "recipeType 10",
+	"compliantStatus": "compliantStatus 10",
+	"relevantEvaluation": false,
+	"recipeId": "recipeId 10",
+	"copyRecipe": "copyRecipe 10",
+	"recipeStatus": "recipeStatus 10",
+	"createdBy": "createdBy 10",
+	"createdOn": "createdOn 10",
+	"changedBy": "changedBy 10",
+	"changedOn": "changedOn 10",
+	"IsActiveEntity": true,
+	"HasActiveEntity": true,
+	"HasDraftEntity": false,
+	"DraftAdministrativeData_DraftUUID": "27db8a13-44b1-4918-a200-63732d2034cb",
+	"__metadata": {
+		"uri": "Recipe(ID=guid'f680c204-733f-4d65-b090-b4c7ccd383f1',IsActiveEntity=true)",
+		"type": "ComplianceEvaluatorService.Recipe"
+	},
+	"evaluationRecipe": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'f680c204-733f-4d65-b090-b4c7ccd383f1',IsActiveEntity=true)/evaluationRecipe"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'f680c204-733f-4d65-b090-b4c7ccd383f1',IsActiveEntity=true)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Recipe(ID=guid'f680c204-733f-4d65-b090-b4c7ccd383f1',IsActiveEntity=true)/SiblingEntity"
+		}
+	}
+}]

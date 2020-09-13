@@ -1,0 +1,29 @@
+[{
+	"ID": 1,
+	"categoryId": 1,
+	"subCategoryName": "Formula Item"
+}, {
+	"ID": 2,
+	"categoryId": 1,
+	"subCategoryName": "Specification"
+}, {
+	"ID": 3,
+	"categoryId": 1,
+	"subCategoryName": "Specification Description"
+}, {
+	"ID": 4,
+	"categoryId": 1,
+	"subCategoryName": "Quantity"
+}, {
+	"ID": 5,
+	"categoryId": 1,
+	"subCategoryName": "UoM"
+}, {
+	"ID": 6,
+	"categoryId": 1,
+	"subCategoryName": "Component Type"
+}, {
+	"ID": 7,
+	"categoryId": 1,
+	"subCategoryName": "Density"
+}]

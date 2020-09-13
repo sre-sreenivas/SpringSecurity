@@ -1,0 +1,33 @@
+[{
+	"ID": "ID 1",
+	"item": "input",
+	"description": "Ingredient",
+	"__metadata": {
+		"uri": "ComponentType('ID%201')",
+		"type": "RecipeService.ComponentType"
+	}
+}, {
+	"ID": "ID 2",
+	"item": "input",
+	"description": "Package",
+	"__metadata": {
+		"uri": "ComponentType('ID%202')",
+		"type": "RecipeService.ComponentType"
+	}
+}, {
+	"ID": "ID 3",
+	"item": "output",
+	"description": "Product",
+	"__metadata": {
+		"uri": "ComponentType('ID%203')",
+		"type": "RecipeService.ComponentType"
+	}
+}, {
+	"ID": "ID 4",
+	"item": "output",
+	"description": "Co-Product",
+	"__metadata": {
+		"uri": "ComponentType('ID%204')",
+		"type": "RecipeService.ComponentType"
+	}
+}]

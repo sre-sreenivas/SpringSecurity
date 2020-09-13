@@ -1,0 +1,341 @@
+[{
+	"ID": "b7ce59e6-920e-4802-83b9-5c63232f25be",
+	"purposeId": "3066e7fb-faa3-45ce-a12a-0a94a736ebb4",
+	"evaluationID": "bdcf2d0f-04b6-4d64-8d8b-e6c122b416b3",
+	"purpose": "purpose 1",
+	"requirement": "requirement 1",
+	"requirementID": "requirementID 1",
+	"purposeType": "purposeType 1",
+	"addedOn": "/Date(1130480341000)/",
+	"addedBy": "addedBy 1",
+	"validityArea": "validityArea 1",
+	"IsActiveEntity": true,
+	"HasActiveEntity": false,
+	"HasDraftEntity": true,
+	"DraftAdministrativeData_DraftUUID": "6b697d03-6dd2-466b-90ac-3555b4237ec2",
+	"__metadata": {
+		"uri": "Purpose(ID=guid'b7ce59e6-920e-4802-83b9-5c63232f25be',IsActiveEntity=true)",
+		"type": "ComplianceEvaluatorService.Purpose"
+	},
+	"evaluationPurpose": {
+		"__deferred": {
+			"uri": "Purpose(ID=guid'b7ce59e6-920e-4802-83b9-5c63232f25be',IsActiveEntity=true)/evaluationPurpose"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Purpose(ID=guid'b7ce59e6-920e-4802-83b9-5c63232f25be',IsActiveEntity=true)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Purpose(ID=guid'b7ce59e6-920e-4802-83b9-5c63232f25be',IsActiveEntity=true)/SiblingEntity"
+		}
+	}
+}, {
+	"ID": "bc1492dc-d28c-4d5e-a517-5dd6fd34262d",
+	"purposeId": "purposeId 2",
+	"evaluationID": "0dc4e020-7b42-430e-82d8-cf987d5b9502",
+	"purpose": "purpose 2",
+	"requirement": "requirement 2",
+	"requirementID": "requirementID 2",
+	"purposeType": "purposeType 2",
+	"addedOn": "/Date(1542867541000)/",
+	"addedBy": "addedBy 2",
+	"validityArea": "validityArea 2",
+	"IsActiveEntity": true,
+	"HasActiveEntity": false,
+	"HasDraftEntity": false,
+	"DraftAdministrativeData_DraftUUID": "441c603e-dd70-4b38-9a1f-a0690d3c438f",
+	"__metadata": {
+		"uri": "Purpose(ID=guid'bc1492dc-d28c-4d5e-a517-5dd6fd34262d',IsActiveEntity=true)",
+		"type": "ComplianceEvaluatorService.Purpose"
+	},
+	"evaluationPurpose": {
+		"__deferred": {
+			"uri": "Purpose(ID=guid'bc1492dc-d28c-4d5e-a517-5dd6fd34262d',IsActiveEntity=true)/evaluationPurpose"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Purpose(ID=guid'bc1492dc-d28c-4d5e-a517-5dd6fd34262d',IsActiveEntity=true)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Purpose(ID=guid'bc1492dc-d28c-4d5e-a517-5dd6fd34262d',IsActiveEntity=true)/SiblingEntity"
+		}
+	}
+}, {
+	"ID": "658623b9-7ca1-44bc-a235-ebc5110634a6",
+	"purposeId": "purposeId 3",
+	"evaluationID": "4cd02350-1624-42bb-b8bc-4d11c71a899d",
+	"purpose": "purpose 3",
+	"requirement": "requirement 3",
+	"requirementID": "requirementID 3",
+	"purposeType": "purposeType 3",
+	"addedOn": "/Date(1376547541000)/",
+	"addedBy": "addedBy 3",
+	"validityArea": "validityArea 3",
+	"IsActiveEntity": false,
+	"HasActiveEntity": true,
+	"HasDraftEntity": false,
+	"DraftAdministrativeData_DraftUUID": "d7768341-a0b3-4056-8b57-638fa6e7c8cf",
+	"__metadata": {
+		"uri": "Purpose(ID=guid'658623b9-7ca1-44bc-a235-ebc5110634a6',IsActiveEntity=false)",
+		"type": "ComplianceEvaluatorService.Purpose"
+	},
+	"evaluationPurpose": {
+		"__deferred": {
+			"uri": "Purpose(ID=guid'658623b9-7ca1-44bc-a235-ebc5110634a6',IsActiveEntity=false)/evaluationPurpose"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Purpose(ID=guid'658623b9-7ca1-44bc-a235-ebc5110634a6',IsActiveEntity=false)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Purpose(ID=guid'658623b9-7ca1-44bc-a235-ebc5110634a6',IsActiveEntity=false)/SiblingEntity"
+		}
+	}
+}, {
+	"ID": "bacdbc12-f448-4e7f-bdae-9ce14afff810",
+	"purposeId": "purposeId 4",
+	"evaluationID": "a2497b99-15be-429c-ba9a-2d5ccd35c08c",
+	"purpose": "purpose 4",
+	"requirement": "requirement 4",
+	"requirementID": "requirementID 4",
+	"purposeType": "purposeType 4",
+	"addedOn": "/Date(1178000341000)/",
+	"addedBy": "addedBy 4",
+	"validityArea": "validityArea 4",
+	"IsActiveEntity": false,
+	"HasActiveEntity": false,
+	"HasDraftEntity": true,
+	"DraftAdministrativeData_DraftUUID": "d90fde2c-647e-4391-b75b-d95dd47a45ac",
+	"__metadata": {
+		"uri": "Purpose(ID=guid'bacdbc12-f448-4e7f-bdae-9ce14afff810',IsActiveEntity=false)",
+		"type": "ComplianceEvaluatorService.Purpose"
+	},
+	"evaluationPurpose": {
+		"__deferred": {
+			"uri": "Purpose(ID=guid'bacdbc12-f448-4e7f-bdae-9ce14afff810',IsActiveEntity=false)/evaluationPurpose"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Purpose(ID=guid'bacdbc12-f448-4e7f-bdae-9ce14afff810',IsActiveEntity=false)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Purpose(ID=guid'bacdbc12-f448-4e7f-bdae-9ce14afff810',IsActiveEntity=false)/SiblingEntity"
+		}
+	}
+}, {
+	"ID": "61b57700-436e-4b27-b5ba-6ada9a47b41b",
+	"purposeId": "purposeId 5",
+	"evaluationID": "60ee31d5-ae47-4d0a-b4dd-a6e65cfe2d8f",
+	"purpose": "purpose 5",
+	"requirement": "requirement 5",
+	"requirementID": "requirementID 5",
+	"purposeType": "purposeType 5",
+	"addedOn": "/Date(1158819541000)/",
+	"addedBy": "addedBy 5",
+	"validityArea": "validityArea 5",
+	"IsActiveEntity": false,
+	"HasActiveEntity": true,
+	"HasDraftEntity": false,
+	"DraftAdministrativeData_DraftUUID": "c92fdd7c-0cc1-42a5-9a36-67e778b45072",
+	"__metadata": {
+		"uri": "Purpose(ID=guid'61b57700-436e-4b27-b5ba-6ada9a47b41b',IsActiveEntity=false)",
+		"type": "ComplianceEvaluatorService.Purpose"
+	},
+	"evaluationPurpose": {
+		"__deferred": {
+			"uri": "Purpose(ID=guid'61b57700-436e-4b27-b5ba-6ada9a47b41b',IsActiveEntity=false)/evaluationPurpose"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Purpose(ID=guid'61b57700-436e-4b27-b5ba-6ada9a47b41b',IsActiveEntity=false)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Purpose(ID=guid'61b57700-436e-4b27-b5ba-6ada9a47b41b',IsActiveEntity=false)/SiblingEntity"
+		}
+	}
+}, {
+	"ID": "26d5801e-87a4-42a3-8a1b-028e005ed483",
+	"purposeId": "purposeId 6",
+	"evaluationID": "328a2fc8-9828-4d50-98cd-7643c061e4d7",
+	"purpose": "purpose 6",
+	"requirement": "requirement 6",
+	"requirementID": "requirementID 6",
+	"purposeType": "purposeType 6",
+	"addedOn": "/Date(1404195541000)/",
+	"addedBy": "addedBy 6",
+	"validityArea": "validityArea 6",
+	"IsActiveEntity": true,
+	"HasActiveEntity": true,
+	"HasDraftEntity": true,
+	"DraftAdministrativeData_DraftUUID": "52b42665-142a-4f3d-abd6-ed2c93135efd",
+	"__metadata": {
+		"uri": "Purpose(ID=guid'26d5801e-87a4-42a3-8a1b-028e005ed483',IsActiveEntity=true)",
+		"type": "ComplianceEvaluatorService.Purpose"
+	},
+	"evaluationPurpose": {
+		"__deferred": {
+			"uri": "Purpose(ID=guid'26d5801e-87a4-42a3-8a1b-028e005ed483',IsActiveEntity=true)/evaluationPurpose"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Purpose(ID=guid'26d5801e-87a4-42a3-8a1b-028e005ed483',IsActiveEntity=true)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Purpose(ID=guid'26d5801e-87a4-42a3-8a1b-028e005ed483',IsActiveEntity=true)/SiblingEntity"
+		}
+	}
+}, {
+	"ID": "753e53a0-2e38-4048-9138-03763d54d664",
+	"purposeId": "purposeId 7",
+	"evaluationID": "d7403eb5-2eea-4ef3-9a2f-1880c1f55eb5",
+	"purpose": "purpose 7",
+	"requirement": "requirement 7",
+	"requirementID": "requirementID 7",
+	"purposeType": "purposeType 7",
+	"addedOn": "/Date(1442989141000)/",
+	"addedBy": "addedBy 7",
+	"validityArea": "validityArea 7",
+	"IsActiveEntity": true,
+	"HasActiveEntity": true,
+	"HasDraftEntity": false,
+	"DraftAdministrativeData_DraftUUID": "b7706195-6543-4445-9ad5-d900d91f913d",
+	"__metadata": {
+		"uri": "Purpose(ID=guid'753e53a0-2e38-4048-9138-03763d54d664',IsActiveEntity=true)",
+		"type": "ComplianceEvaluatorService.Purpose"
+	},
+	"evaluationPurpose": {
+		"__deferred": {
+			"uri": "Purpose(ID=guid'753e53a0-2e38-4048-9138-03763d54d664',IsActiveEntity=true)/evaluationPurpose"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Purpose(ID=guid'753e53a0-2e38-4048-9138-03763d54d664',IsActiveEntity=true)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Purpose(ID=guid'753e53a0-2e38-4048-9138-03763d54d664',IsActiveEntity=true)/SiblingEntity"
+		}
+	}
+}, {
+	"ID": "c8ea8565-3c45-48c6-84f4-f3fd16d25d3e",
+	"purposeId": "purposeId 8",
+	"evaluationID": "6aeb6da2-18ad-4521-8fd6-21cc3f0abb31",
+	"purpose": "purpose 8",
+	"requirement": "requirement 8",
+	"requirementID": "requirementID 8",
+	"purposeType": "purposeType 8",
+	"addedOn": "/Date(1561702741000)/",
+	"addedBy": "addedBy 8",
+	"validityArea": "validityArea 8",
+	"IsActiveEntity": false,
+	"HasActiveEntity": false,
+	"HasDraftEntity": false,
+	"DraftAdministrativeData_DraftUUID": "e419c802-d86a-4ac4-b6eb-666e91f8b3a1",
+	"__metadata": {
+		"uri": "Purpose(ID=guid'c8ea8565-3c45-48c6-84f4-f3fd16d25d3e',IsActiveEntity=false)",
+		"type": "ComplianceEvaluatorService.Purpose"
+	},
+	"evaluationPurpose": {
+		"__deferred": {
+			"uri": "Purpose(ID=guid'c8ea8565-3c45-48c6-84f4-f3fd16d25d3e',IsActiveEntity=false)/evaluationPurpose"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Purpose(ID=guid'c8ea8565-3c45-48c6-84f4-f3fd16d25d3e',IsActiveEntity=false)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Purpose(ID=guid'c8ea8565-3c45-48c6-84f4-f3fd16d25d3e',IsActiveEntity=false)/SiblingEntity"
+		}
+	}
+}, {
+	"ID": "73a330cc-36af-4595-9dd2-fa121487d022",
+	"purposeId": "purposeId 9",
+	"evaluationID": "04dacb04-7c4d-46b4-aded-ef0c8992c6f0",
+	"purpose": "purpose 9",
+	"requirement": "requirement 9",
+	"requirementID": "requirementID 9",
+	"purposeType": "purposeType 9",
+	"addedOn": "/Date(977206741000)/",
+	"addedBy": "addedBy 9",
+	"validityArea": "validityArea 9",
+	"IsActiveEntity": false,
+	"HasActiveEntity": false,
+	"HasDraftEntity": false,
+	"DraftAdministrativeData_DraftUUID": "0114dbe7-c322-4ea8-b080-2b59671988f9",
+	"__metadata": {
+		"uri": "Purpose(ID=guid'73a330cc-36af-4595-9dd2-fa121487d022',IsActiveEntity=false)",
+		"type": "ComplianceEvaluatorService.Purpose"
+	},
+	"evaluationPurpose": {
+		"__deferred": {
+			"uri": "Purpose(ID=guid'73a330cc-36af-4595-9dd2-fa121487d022',IsActiveEntity=false)/evaluationPurpose"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Purpose(ID=guid'73a330cc-36af-4595-9dd2-fa121487d022',IsActiveEntity=false)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Purpose(ID=guid'73a330cc-36af-4595-9dd2-fa121487d022',IsActiveEntity=false)/SiblingEntity"
+		}
+	}
+}, {
+	"ID": "40947569-24cf-4045-98bd-cf2cd0473ca2",
+	"purposeId": "purposeId 10",
+	"evaluationID": "eef5ac81-218f-41ad-9741-6b8c531c973e",
+	"purpose": "purpose 10",
+	"requirement": "requirement 10",
+	"requirementID": "requirementID 10",
+	"purposeType": "purposeType 10",
+	"addedOn": "/Date(1272694741000)/",
+	"addedBy": "addedBy 10",
+	"validityArea": "validityArea 10",
+	"IsActiveEntity": false,
+	"HasActiveEntity": true,
+	"HasDraftEntity": false,
+	"DraftAdministrativeData_DraftUUID": "c0f199f2-1ca7-482a-b395-6f4c1f4075d0",
+	"__metadata": {
+		"uri": "Purpose(ID=guid'40947569-24cf-4045-98bd-cf2cd0473ca2',IsActiveEntity=false)",
+		"type": "ComplianceEvaluatorService.Purpose"
+	},
+	"evaluationPurpose": {
+		"__deferred": {
+			"uri": "Purpose(ID=guid'40947569-24cf-4045-98bd-cf2cd0473ca2',IsActiveEntity=false)/evaluationPurpose"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "Purpose(ID=guid'40947569-24cf-4045-98bd-cf2cd0473ca2',IsActiveEntity=false)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "Purpose(ID=guid'40947569-24cf-4045-98bd-cf2cd0473ca2',IsActiveEntity=false)/SiblingEntity"
+		}
+	}
+}]

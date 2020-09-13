@@ -1,0 +1,43 @@
+[{
+	"ID": 9,
+	"categoryName": "subCategoryName 7",
+	"__metadata": {
+		"uri": "CategoryType(9)",
+		"type": "ManageLayoutService.CategoryType"
+	}
+}, {
+	"ID": 416,
+	"categoryName": "subCategoryName 5",
+	"__metadata": {
+		"uri": "CategoryType(416)",
+		"type": "ManageLayoutService.CategoryType"
+	}
+}, {
+	"ID": 6671,
+	"categoryName": "subCategoryName 4",
+	"__metadata": {
+		"uri": "CategoryType(6671)",
+		"type": "ManageLayoutService.CategoryType"
+	}
+}, {
+	"ID": 2613,
+	"categoryName": "subCategoryName 3",
+	"__metadata": {
+		"uri": "CategoryType(2613)",
+		"type": "ManageLayoutService.CategoryType"
+	}
+}, {
+	"ID": 7960,
+	"categoryName": "subCategoryName 6",
+	"__metadata": {
+		"uri": "CategoryType(7960)",
+		"type": "ManageLayoutService.CategoryType"
+	}
+}, {
+	"ID": 2584,
+	"categoryName": "subCategoryName 1",
+	"__metadata": {
+		"uri": "CategoryType(2584)",
+		"type": "ManageLayoutService.CategoryType"
+	}
+}]
