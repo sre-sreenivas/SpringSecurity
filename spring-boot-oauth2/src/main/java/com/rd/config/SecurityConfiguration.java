@@ -16,56 +16,46 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.crypto.password.StandardPasswordEncoder;
 import org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler;
 
-
 @Configuration
 @EnableWebSecurity
 public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
-    @Autowired
-    private UserDetailsService userDetailsService;
+	@Autowired
+	private UserDetailsService userDetailsService;
 
-    @Bean
-    public PasswordEncoder passwordEncoder() {
-        return new StandardPasswordEncoder();
-    }
+	@Bean
+	public PasswordEncoder passwordEncoder() {
+		return new StandardPasswordEncoder();
+	}
 
-    @Autowired
-    public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
+	@Autowired
+	public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
 
-        auth
-                .userDetailsService(userDetailsService)
-                .passwordEncoder(passwordEncoder());
+		auth.userDetailsService(userDetailsService).passwordEncoder(passwordEncoder());
 
-    }
+	}
 
-    @Override
-    public void configure(WebSecurity web) throws Exception {
+	@Override
+	public void configure(WebSecurity web) throws Exception {
 
-        web
-                .ignoring()
-                .antMatchers("/h2console/**")
-                .antMatchers("/api/register")
-                .antMatchers("/api/activate")
-                .antMatchers("/api/lostpassword")
-                .antMatchers("/api/resetpassword")
-                .antMatchers("/api/hello");
+		web.ignoring().antMatchers("/h2console/**").antMatchers("/api/register").antMatchers("/api/activate")
+				.antMatchers("/api/lostpassword").antMatchers("/api/resetpassword").antMatchers("/api/hello");
 
-    }
+	}
 
-    @Override
-    @Bean
-    public AuthenticationManager authenticationManagerBean() throws Exception {
-        return super.authenticationManagerBean();
-    }
+	@Override
+	@Bean
+	public AuthenticationManager authenticationManagerBean() throws Exception {
+		return super.authenticationManagerBean();
+	}
 
-    @EnableGlobalMethodSecurity(prePostEnabled = true, jsr250Enabled = true)
-    private static class GlobalSecurityConfiguration extends GlobalMethodSecurityConfiguration {
-        @Override
-        protected MethodSecurityExpressionHandler createExpressionHandler() {
-            return new OAuth2MethodSecurityExpressionHandler();
-        }
+	@EnableGlobalMethodSecurity(prePostEnabled = true, jsr250Enabled = true)
+	private static class GlobalSecurityConfiguration extends GlobalMethodSecurityConfiguration {
+		@Override
+		protected MethodSecurityExpressionHandler createExpressionHandler() {
+			return new OAuth2MethodSecurityExpressionHandler();
+		}
 
-    }
+	}
 
 }
-

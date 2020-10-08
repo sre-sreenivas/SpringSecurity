@@ -13,42 +13,37 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-
 /**
  * Spring Security logout handler
  */
 @Component
-public class CustomLogoutSuccessHandler
-        extends AbstractAuthenticationTargetUrlRequestHandler
-        implements LogoutSuccessHandler {
+public class CustomLogoutSuccessHandler extends AbstractAuthenticationTargetUrlRequestHandler
+		implements LogoutSuccessHandler {
 
+	private static final String BEARER_AUTHENTICATION = "Bearer ";
+	private static final String HEADER_AUTHORIZATION = "authorization";
 
-    private static final String BEARER_AUTHENTICATION = "Bearer ";
-    private static final String HEADER_AUTHORIZATION = "authorization";
+	@Autowired
+	private TokenStore tokenStore;
 
-    @Autowired
-    private TokenStore tokenStore;
+	@Override
+	public void onLogoutSuccess(HttpServletRequest request, HttpServletResponse response, Authentication authentication)
+			throws IOException, ServletException {
 
-    @Override
-    public void onLogoutSuccess(HttpServletRequest request,
-                                HttpServletResponse response,
-                                Authentication authentication)
-            throws IOException, ServletException {
+		String token = request.getHeader(HEADER_AUTHORIZATION);
 
-        String token = request.getHeader(HEADER_AUTHORIZATION);
+		if (token != null && token.startsWith(BEARER_AUTHENTICATION)) {
 
-        if (token != null && token.startsWith(BEARER_AUTHENTICATION)) {
+			OAuth2AccessToken oAuth2AccessToken = tokenStore.readAccessToken(token.split(" ")[0]);
 
-            OAuth2AccessToken oAuth2AccessToken = tokenStore.readAccessToken(token.split(" ")[0]);
+			if (oAuth2AccessToken != null) {
+				tokenStore.removeAccessToken(oAuth2AccessToken);
+			}
 
-            if (oAuth2AccessToken != null) {
-                tokenStore.removeAccessToken(oAuth2AccessToken);
-            }
+		}
 
-        }
+		response.setStatus(HttpServletResponse.SC_OK);
 
-        response.setStatus(HttpServletResponse.SC_OK);
-
-    }
+	}
 
 }

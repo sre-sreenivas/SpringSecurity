@@ -17,14 +17,13 @@ import java.io.IOException;
 @Component
 public class CustomAuthenticationEntryPoint implements AuthenticationEntryPoint {
 
-    private final Logger log = LoggerFactory.getLogger(CustomAuthenticationEntryPoint.class);
+	private final Logger log = LoggerFactory.getLogger(CustomAuthenticationEntryPoint.class);
 
-    public void commence(HttpServletRequest request,
-                         HttpServletResponse response,
-                         AuthenticationException ae) throws IOException, ServletException {
+	public void commence(HttpServletRequest request, HttpServletResponse response, AuthenticationException ae)
+			throws IOException, ServletException {
 
-        log.info("Pre-authenticated entry point called. Rejecting access");
-        response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "Access Denied");
+		log.info("Pre-authenticated entry point called. Rejecting access");
+		response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "Access Denied");
 
-    }
+	}
 }
